@@ -59,7 +59,7 @@ export const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdite
           aria-label='Save'
           className={styles.inputTaskSave}
           onClick={() => {
-            onEdited(title, value);
+            onEdited(id, value);
             setIsEditMode(false);
           }}
         />
@@ -77,7 +77,7 @@ export const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdite
         aria-label='Remove'
         className={styles.inputTaskRemove}
         onClick={() => {
-          if (confirm('Rly??????? Are u crazy')) {
+          if (confirm('Rly??? god damn!')) {
             onRemoved(id);
           }
         }}
