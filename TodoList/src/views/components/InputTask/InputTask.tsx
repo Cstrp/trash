@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import styles from './index.module.scss';
 
 interface InputTaskProps {
@@ -8,47 +8,34 @@ interface InputTaskProps {
   onEdited: (id: string, title: string) => void;
   onRemoved: (id: string) => void;
 }
-export const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdited, onRemoved }) => {
+
+const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdited, onRemoved }) => {
   const [checked, setChecked] = useState(false);
   const [isEditMode, setIsEditMode] = useState(false);
   const [value, setValue] = useState(title);
-  const editTitleInputRef = useRef<HTMLInputElement>(null);
-
-  useEffect (()=>{
-    if(isEditMode) {
-      editTitleInputRef?.current?.focus();
-    }
-  }, [isEditMode])
 
   return (
     <div className={styles.inputTask}>
       <label className={styles.inputTaskLabel}>
         <input
-          type='checkbox'
-          checked={checked}
-          disabled={isEditMode}
-          className={styles.inputTaskCheckbox}
           onChange={(evt) => {
             setChecked(evt.target.checked);
             if (evt.target.checked) {
               onDone(id);
             }
           }}
+          type='checkbox'
+          disabled={isEditMode}
+          checked={checked}
+          className={styles.inputTaskCheckbox}
         />
         {isEditMode ? (
           <input
             value={value}
-            ref={editTitleInputRef}
             onChange={(evt) => {
               setValue(evt.target.value);
             }}
             className={styles.inputTaskTitleEdit}
-            onKeyDown={(evt) => {
-              if (evt.key === 'Enter') {
-                onEdited(id, value);
-                setIsEditMode(false);
-              }
-            }}
           />
         ) : (
           <h3 className={styles.inputTaskTitle}>{title}</h3>
@@ -60,7 +47,7 @@ export const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdite
           className={styles.inputTaskSave}
           onClick={() => {
             onEdited(id, value);
-            setIsEditMode(false);
+            setIsEditMode(false)
           }}
         />
       ) : (
@@ -77,7 +64,7 @@ export const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdite
         aria-label='Remove'
         className={styles.inputTaskRemove}
         onClick={() => {
-          if (confirm('Rly??? god damn!')) {
+          if (confirm('Ok?Ok!')) {
             onRemoved(id);
           }
         }}
@@ -85,3 +72,5 @@ export const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdite
     </div>
   );
 };
+
+export default InputTask;

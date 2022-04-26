@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styles from './index.module.scss';
 import { useToDoStore } from '../../data/stores/useToDoStore';
 import { InputPlus } from '../components/InputPlus/index';
-import { InputTask } from '../components/InputTask/InputTask';
+import InputTask from '../components/InputTask/InputTask';
 
 export const App: React.FC = () => {
   const [tasks, createTask, updateTask, removeTask] = useToDoStore((state) => [
