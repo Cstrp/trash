@@ -68,6 +68,7 @@ export const useToDoStore = create<ToDoStore>(
               })),
           });
         },
+
       removeTask:
         (id: string) => {
           const { tasks } = get();

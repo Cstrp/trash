@@ -47,7 +47,7 @@ const InputTask: React.FC<InputTaskProps> = ({ id, title, onDone, onEdited, onRe
           className={styles.inputTaskSave}
           onClick={() => {
             onEdited(id, value);
-            setIsEditMode(false)
+            setIsEditMode(false);
           }}
         />
       ) : (

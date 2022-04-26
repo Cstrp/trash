@@ -5,14 +5,7 @@ import { InputPlus } from '../components/InputPlus/index';
 import InputTask from '../components/InputTask/InputTask';
 
 export const App: React.FC = () => {
-  const [tasks, createTask, updateTask, removeTask] = useToDoStore((state) => [
-    state.tasks,
-    state.createTask,
-    state.createTask,
-    state.removeTask,
-  ]);
-
-  console.log(tasks);
+  const { tasks, createTask, updateTask, removeTask } = useToDoStore();
 
   return (
     <article className={styles.article}>
