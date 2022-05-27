@@ -1,4 +1,4 @@
-export function Greeting () {
+export function Greeting() {
   const greeting = document.querySelector('.greeting');
   let timer = new Date(),
     now = timer.getHours();

@@ -73,7 +73,7 @@ body {
 
 .player-icon,
 .slider-icon,
-.change-quote {
+.lol {
   width: 32px;
   height: 32px;
   background-size: 32px 32px;
@@ -89,13 +89,13 @@ body {
 
 .player-icon:hover,
 .slider-icon:hover,
-.change-quote:hover {
+.lol:hover {
   opacity: 1;
 }
 
 .player-icon:active,
 .slider-icon:active,
-.change-quote:active {
+.lol:active {
   border: 0;
   outline: 0;
   transform: scale(1.1);
@@ -253,7 +253,7 @@ body {
   padding: 20px;
 }
 
-.change-quote {
+.lol {
   margin-bottom: 30px;
   background-image: url("../assets/svg/reload.svg");
 }

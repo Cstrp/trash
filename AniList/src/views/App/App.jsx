@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import styles from './index.module.scss';
@@ -32,7 +33,9 @@ const App = () => {
   };
 
   return (
-    <SearchContext.Provider value={{ search, animeData, setData, singleData, setSingle }}>
+    <SearchContext.Provider
+      value={{ search, animeData, setData, singleData, setSingle }}
+    >
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<RegistrationForm />} />
