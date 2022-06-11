@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72a27c1e-8f77-4219-b4af-0f26b389546a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TsMicrosoft/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trash.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/data/context/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/data/context/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/data/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/data/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/data/pages/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/data/pages/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/data/pages/SingleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/data/pages/SingleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/App/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/App/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/components/OutputForm/OutputForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/components/OutputForm/OutputForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/components/RegistrationForm/RegistrationForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/components/RegistrationForm/RegistrationForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/components/RegistrationForm/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/components/RegistrationForm/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/components/SearchForm/SearchForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/components/SearchForm/SearchForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AniList/src/views/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/AniList/src/views/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/.idea/Momentum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/.idea/Momentum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/src/js/greeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/src/js/greeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/src/js/timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/src/js/timer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Momentum/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Momentum/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/data/stores/useToDoStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/data/stores/useToDoStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/data/sup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/data/sup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/App/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/App/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/App/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/App/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/components/InputPlus/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/components/InputPlus/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/components/InputPlus/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/components/InputPlus/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/components/InputTask/InputTask.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/components/InputTask/InputTask.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/components/InputTask/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/components/InputTask/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/src/views/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/src/views/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoList/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/.browserslistrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TsMicrosoft/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/TsMicrosoft/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AGXPKp1tqzpVh7YYoHRN0UTut6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.15.0",
+    "javascript.nodejs.core.library.typings.version": "16.11.36",
+    "last_opened_file_path": "/home/cstrp/Other/MyProjects/trash",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/cstrp/.nvm/versions/node/v16.15.1/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/cstrp/Other/MyProjects/trash/TsMicrosoft/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/home/cstrp/Other/MyProjects/trash/Momentum/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/TodoList/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/TodoList/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72a27c1e-8f77-4219-b4af-0f26b389546a" name="Changes" comment="" />
+      <created>1654636870741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654636870741</updated>
+      <workItem from="1654636872318" duration="998000" />
+      <workItem from="1654640496060" duration="32000" />
+      <workItem from="1654640601316" duration="323000" />
+      <workItem from="1654641374063" duration="110000" />
+      <workItem from="1654641515108" duration="121000" />
+      <workItem from="1654760229437" duration="191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
