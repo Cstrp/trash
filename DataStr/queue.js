@@ -1,3 +1,5 @@
+// FIFO First in First out
+
 function queueTime(customersm, n) {
 	if (!customersm.length) {
 		return 0

@@ -1,5 +1,4 @@
 const array = [2, 3, 5, 8, 1, 4, 6, 8, 6, 4, 12, 5, 7, -1, -5, 32, 124, 55, 12]
-let couter = 0
 
 function selectedSort(array) {
 	for (let i = 0; i < array.length; i++) {
@@ -8,7 +7,6 @@ function selectedSort(array) {
 			if (array[j] < array[minimalIndex]) {
 				minimalIndex = j
 			}
-			couter += 1
 		}
 		let tempr = array[i]
 		array[i] = array[minimalIndex]

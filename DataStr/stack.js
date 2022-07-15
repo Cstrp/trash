@@ -1,7 +1,5 @@
 // LIFO Last in first out
 
-// FIFO First in First out
-
 // function flatten(...stack) {
 // 	const res = []
 // 	while (stack.length) {
