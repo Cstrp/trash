@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="629189e0-ba6f-4b24-a834-92682c71657d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.all-contributorsrc" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.all-contributorsrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.github/ISSUE_TEMPLATE/theme-request.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.github/ISSUE_TEMPLATE/theme-request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.github/kitty-themes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.github/kitty-themes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/convert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/palette.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/palette.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/preview.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/preview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/template.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/template.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/template.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/.tools/template.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/3024_Day.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/3024_Day.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/3024_Night.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/3024_Night.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AdventureTime.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AdventureTime.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Afterglow.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Afterglow.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AlienBlood.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AlienBlood.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Alucard.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Alucard.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Apprentice.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Apprentice.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Argonaut.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Argonaut.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Arthur.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Arthur.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AtelierSulphurpool.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AtelierSulphurpool.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Atom.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Atom.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AtomOneLight.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/AtomOneLight.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Batman.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Batman.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Belafonte_Day.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Belafonte_Day.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Belafonte_Night.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Belafonte_Night.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/BirdsOfParadise.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/BirdsOfParadise.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Blazer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Blazer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Borland.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Borland.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Bright_Lights.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Bright_Lights.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Broadcast.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Broadcast.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Brogrammer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Brogrammer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/C64.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/C64.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/CLRS.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/CLRS.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Chalk.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Chalk.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Chalkboard.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Chalkboard.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ciapre.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ciapre.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Cobalt2.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Cobalt2.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Cobalt_Neon.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Cobalt_Neon.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/CrayonPonyFish.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/CrayonPonyFish.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Dark_Pastel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Dark_Pastel.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Darkside.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Darkside.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Desert.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Desert.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/DimmedMonokai.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/DimmedMonokai.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/DotGov.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/DotGov.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Dracula.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Dracula.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Dumbledore.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Dumbledore.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Duotone_Dark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Duotone_Dark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ENCOM.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ENCOM.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Earthsong.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Earthsong.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Elemental.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Elemental.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Espresso.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Espresso.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Espresso_Libre.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Espresso_Libre.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Fideloper.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Fideloper.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/FishTank.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/FishTank.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Flat.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Flat.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Flatland.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Flatland.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Floraverse.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Floraverse.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/FrontEndDelight.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/FrontEndDelight.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/FunForrest.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/FunForrest.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Galaxy.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Galaxy.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Github.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Github.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Glacier.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Glacier.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/GoaBase.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/GoaBase.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Grape.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Grape.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Grass.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Grass.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hardcore.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hardcore.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Harper.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Harper.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Highway.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Highway.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hipster_Green.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hipster_Green.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Homebrew.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Homebrew.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hurtado.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hurtado.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hybrid.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Hybrid.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/IC_Green_PPL.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/IC_Green_PPL.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/IC_Orange_PPL.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/IC_Orange_PPL.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/IR_Black.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/IR_Black.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Jackie_Brown.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Jackie_Brown.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Japanesque.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Japanesque.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Jellybeans.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Jellybeans.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/JetBrains_Darcula.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/JetBrains_Darcula.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Kibble.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Kibble.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Later_This_Evening.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Later_This_Evening.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Lavandula.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Lavandula.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/LiquidCarbon.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/LiquidCarbon.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/LiquidCarbonTransparent.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/LiquidCarbonTransparent.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/LiquidCarbonTransparentInverse.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/LiquidCarbonTransparentInverse.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Man_Page.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Man_Page.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Material.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Material.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/MaterialDark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/MaterialDark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Mathias.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Mathias.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Medallion.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Medallion.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Misterioso.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Misterioso.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Molokai.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Molokai.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/MonaLisa.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/MonaLisa.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Classic.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Classic.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Machine).conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Machine).conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Octagon).conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Octagon).conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Ristretto).conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Ristretto).conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Spectrum).conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Pro_(Filter_Spectrum).conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Soda.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Monokai_Soda.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/N0tch2k.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/N0tch2k.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Neopolitan.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Neopolitan.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Neutron.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Neutron.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/NightLion_v1.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/NightLion_v1.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/NightLion_v2.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/NightLion_v2.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Nova.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Nova.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Novel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Novel.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Obsidian.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Obsidian.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ocean.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ocean.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/OceanicMaterial.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/OceanicMaterial.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ollie.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ollie.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/OneDark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/OneDark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Parasio_Dark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Parasio_Dark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/PaulMillr.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/PaulMillr.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/PencilDark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/PencilDark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/PencilLight.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/PencilLight.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Piatto_Light.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Piatto_Light.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Pnevma.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Pnevma.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Pro.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Pro.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Red_Alert.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Red_Alert.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Red_Sands.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Red_Sands.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Relaxed_Afterglow.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Relaxed_Afterglow.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Renault_Style.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Renault_Style.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Renault_Style_Light.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Renault_Style_Light.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Rippedcasts.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Rippedcasts.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Royal.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Royal.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SeaShells.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SeaShells.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Seafoam_Pastel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Seafoam_Pastel.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Seti.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Seti.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Shaman.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Shaman.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Slate.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Slate.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Smyck.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Smyck.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SoftServer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SoftServer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Darcula.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Darcula.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Dark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Dark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Dark_-_Patched.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Dark_-_Patched.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Dark_Higher_Contrast.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Dark_Higher_Contrast.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Light.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Solarized_Light.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Source_Code_X.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Source_Code_X.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SpaceGray.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SpaceGray.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SpaceGray_Eighties.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SpaceGray_Eighties.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SpaceGray_Eighties_Dull.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/SpaceGray_Eighties_Dull.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Spacedust.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Spacedust.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Spiderman.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Spiderman.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Spring.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Spring.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Square.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Square.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Sundried.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Sundried.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Symfonic.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Symfonic.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tango_Dark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tango_Dark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tango_Light.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tango_Light.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Teerb.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Teerb.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Thayer_Bright.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Thayer_Bright.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/The_Hulk.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/The_Hulk.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night_Blue.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night_Blue.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night_Bright.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night_Bright.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night_Eighties.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Tomorrow_Night_Eighties.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ToyChest.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ToyChest.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Treehouse.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Treehouse.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Twilight.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Twilight.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ubuntu.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Ubuntu.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Urple.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Urple.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Vaughn.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Vaughn.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/VibrantInk.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/VibrantInk.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/WarmNeon.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/WarmNeon.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Wez.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Wez.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/WildCherry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/WildCherry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Wombat.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Wombat.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Wryan.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Wryan.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Zenburn.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/Zenburn.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ayu.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ayu.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ayu_light.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ayu_light.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ayu_mirage.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/ayu_mirage.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/gruvbox_dark.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/gruvbox_dark.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/gruvbox_light.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/gruvbox_light.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/idleToes.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/idleToes.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/snazzy.conf" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxConfig/kitty/kitty-themes/themes/snazzy.conf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CPp4UHRFRgw12iJvVThCPZvhAd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.4.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.0.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cstrp/Documents/trash&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/cstrp/.local/share/nvm/v18.4.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/cstrp/trash/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="629189e0-ba6f-4b24-a834-92682c71657d" name="Changes" comment="" />
+      <created>1658713882229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658713882229</updated>
+      <workItem from="1658713883441" duration="1867000" />
+      <workItem from="1658715846881" duration="1270000" />
+      <workItem from="1658717441845" duration="1049000" />
+      <workItem from="1658718501148" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
