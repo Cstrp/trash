@@ -106,7 +106,7 @@ typings/
 build/
 webpack.config.js
 .prettier.js
-babel.config.js
+babel.config.json
 custom.d.ts
 postcss.config.js
 tsconfig.json

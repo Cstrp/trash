@@ -1,36 +1,43 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ESLintPlugin = require('eslint-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
-const isProd = process.env.NODE_ENV === 'production';
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ESLintPlugin = require("eslint-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const FriendlyWebpackPlugin = require("@soda/friendly-errors-webpack-plugin");
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+const isProd = process.env.NODE_ENV === "production";
 
-const fileName = ['index'];
+const fileName = ["index"];
 
 module.exports = {
-  context: path.resolve(__dirname, '../src'),
+  context: path.resolve(__dirname, "../src"),
   entry: fileName.reduce((config, page) => {
     config[page] = `./${page}.ts`;
     return config;
   }, {}),
   output: {
-    path: path.resolve(__dirname, '../dist'),
-    filename: 'js/[name].[contenthash].js',
+    path: path.resolve(__dirname, "../dist"),
+    filename: "js/[name].[contenthash].js",
     assetModuleFilename: (pathData) => {
-      const filePath = path.dirname(pathData.filename).split('/').slice(1).join('/');
+      const filePath = path
+        .dirname(pathData.filename)
+        .split("/")
+        .slice(1)
+        .join("/");
       return `${filePath}/[name][ext]`;
     },
-    clean: true,
+    clean: {
+      keep: /\.git/,
+    },
   },
   resolve: {
-    alias: { '@': path.resolve(__dirname, './src') },
-    extensions: ['.ts', '.js', '.json', '.css', '.scss'],
+    alias: { "@": path.resolve(__dirname, "../src") },
+    extensions: [".ts", ".js", ".json", ".css", ".scss"],
   },
   plugins: [].concat(
     fileName.map(
       (file) =>
         new HtmlWebpackPlugin({
-          inject: 'head',
+          inject: "head",
           template: `./${file}.html`,
           filename: `./${file}.html`,
           chunks: [file],
@@ -41,12 +48,19 @@ module.exports = {
     ),
     [
       new FriendlyWebpackPlugin({
-        logLevel: 'silent',
+        logLevel: "silent",
+      }),
+      new ForkTsCheckerWebpackPlugin({
+        async: false,
+        typescript: {
+          configFile: "../tsconfig.json",
+        },
+        devServer: true,
       }),
       new ESLintPlugin({
-        extensions: ['.ts', '.js'],
+        extensions: [".ts", ".js"],
         failOnError: false,
-        exclude: 'node_modules',
+        exclude: "node_modules",
       }),
     ]
   ),
@@ -54,30 +68,42 @@ module.exports = {
     rules: [
       {
         test: /\.(html)$/,
-        use: ['html-loader'],
+        use: ["html-loader"],
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          isProd ? MiniCssExtractPlugin.loader : "style-loader",
+          "css-loader",
+          "postcss-loader",
+        ],
       },
       {
         test: /\.(s[ac]|c)ss$/i,
-        use: [isProd ? MiniCssExtractPlugin.loader : 'style-loader', 'css-loader', 'sass-loader'],
+        use: [
+          isProd ? MiniCssExtractPlugin.loader : "style-loader",
+          "css-loader",
+          "sass-loader",
+        ],
       },
       {
         test: /\.(ts?|js?)$/,
         use: [
           {
-            loader: 'thread-loader',
+            loader: "thread-loader",
             options: {
               workerParallelJobs: 2,
             },
           },
-          'babel-loader',
+          "babel-loader",
         ],
         exclude: /node_modules/,
       },
       {
         test: /\.(png|jpe?g|gif|svg|webp|ico)$/i,
-        type: isProd ? 'asset' : 'asset/resource',
+        type: isProd ? "asset" : "asset/resource",
         generator: {
-          filename: 'assets/img/[name][hash][ext][query]',
+          filename: "assets/img/[name][hash][ext][query]",
         },
         parser: {
           dataUrlCondition: {
@@ -87,17 +113,17 @@ module.exports = {
       },
       {
         test: /\.(woff2?|eot|ttf|otf)$/i,
-        type: 'asset/resource',
+        type: "asset/resource",
         generator: {
-          filename: 'assets/font/[name].[ext]',
+          filename: "assets/font/[name].[ext]",
         },
       },
     ],
   },
   cache: {
-    type: 'filesystem',
+    type: "filesystem",
     buildDependencies: {
-      config: [path.join(__dirname, '../webpack.config.js')],
+      config: [path.join(__dirname, "../webpack.config.js")],
     },
   },
 };

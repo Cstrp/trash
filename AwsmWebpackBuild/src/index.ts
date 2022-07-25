@@ -1,9 +1,17 @@
-import './View/styles/common';
+import "./View/styles/common.scss";
+import _ from "lodash";
 
-const a: HTMLElement = document.createElement('div');
+const arr1 = [1, 2, 3, 4, 5];
 
-document.body.append(a);
+const arr2 = [6, 7, 8, 9];
 
-console.log('HelloWorld!');
+_.defer(function (stamp) {
+  console.log(_.now() - stamp);
+}, _.now());
 
-// git init <directory> --template=<template_directory>
+console.log(
+  _.concat(arr2, arr1),
+  _.sortedIndex(arr2, 1),
+  _.chunk(arr1),
+  _.each(arr1, (i) => console.log(i))
+);

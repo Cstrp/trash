@@ -6,11 +6,11 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint",
+    "@typescript-eslint"
   ],
   "globals": {
     "fetch": true,
@@ -32,8 +32,8 @@
     "@typescript-eslint/no-explicit-any": [
       "error"
     ],
-    "@typescript-eslint/no-unused-vars": 2,
-    "@typescript-eslint/no-useless-constructor": 2,
+    "@typescript-eslint/no-useless-constructor": 0,
+    "no-unused-expressions": "off",
     "no-constant-condition": 0,
     "import/extensions": 0,
     "import/no-unresolved": 0,
@@ -56,7 +56,7 @@
     "no-await-in-loop": 0,
     "no-continue": 0,
     "no-plusplus": 0,
-    "no-debugger": 1,
+    "no-debugger": 0,
     "no-console": 0,
     "padding-line-between-statements": [
       "warn",
@@ -110,12 +110,11 @@
         "SwitchCase": 1
       }
     ],
-    "no-unused-expressions": [
-      "error",
-      {
-        "allowShortCircuit": true
-      }
-    ],
+    //    "no-unused-expressions": [
+    //      "error",
+    //      {
+    //        "allowShortCircuit": true
+    //      }
     "no-bitwise": [
       "error",
       {
@@ -133,3 +132,4 @@
     ]
   }
 }
+
