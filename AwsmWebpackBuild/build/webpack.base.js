@@ -71,14 +71,6 @@ module.exports = {
         use: ["html-loader"],
       },
       {
-        test: /\.css$/i,
-        use: [
-          isProd ? MiniCssExtractPlugin.loader : "style-loader",
-          "css-loader",
-          "postcss-loader",
-        ],
-      },
-      {
         test: /\.(s[ac]|c)ss$/i,
         use: [
           isProd ? MiniCssExtractPlugin.loader : "style-loader",

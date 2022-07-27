@@ -4,5 +4,11 @@
     "module": "esnext",
     "moduleResolution": "node"
   },
-  "include": ["webpack.config.js"]
+  "include": [
+    "webpack.config.js",
+    "custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
