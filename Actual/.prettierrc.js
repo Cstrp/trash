@@ -9,4 +9,22 @@ module.exports = {
   bracketSpacing: true,
   embeddedLanguageFormatting: 'auto',
   htmlWhitespaceSensitivity: 'css',
+  insertPragma: false,
+  quoteProps: 'as-needed',
+  requirePragma: false,
+  useTabs: false,
+  overrides: [
+    {
+      files: '*.md',
+      options: {
+        tabWidth: 4,
+        printWidth: 120,
+        semi: true,
+        singleQuote: true,
+        trailingComma: 'all',
+        arrowParens: 'always',
+        endOfLine: 'auto',
+      },
+    },
+  ],
 };
