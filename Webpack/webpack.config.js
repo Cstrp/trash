@@ -25,7 +25,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   devtool: 'source-map',
   entry: {
-    main: './index.js',
+    main: './index.ts',
     // index: './index.ts',
   },
   output: {

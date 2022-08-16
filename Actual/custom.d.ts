@@ -1,5 +1,5 @@
 declare module '*.scss' {
-  const content: { [className: string]: string };
+  const content: {[className: string]: string};
   export = content;
 }
 
@@ -18,7 +18,37 @@ declare module '*.jpg' {
   export default content;
 }
 
+declare module '*.jpeg' {
+  const content: string;
+  export default content;
+}
+
 declare module '*.avif' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.webp' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.ico' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.gif' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.mp3' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.mp3' {
   const content: string;
   export default content;
 }

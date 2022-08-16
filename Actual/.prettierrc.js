@@ -6,7 +6,7 @@ module.exports = {
   printWidth: 120,
   arrowParens: 'always',
   endOfLine: 'auto',
-  bracketSpacing: true,
+  bracketSpacing: false,
   embeddedLanguageFormatting: 'auto',
   htmlWhitespaceSensitivity: 'css',
   insertPragma: false,
@@ -17,7 +17,7 @@ module.exports = {
     {
       files: '*.md',
       options: {
-        tabWidth: 4,
+        tabWidth: 2,
         printWidth: 120,
         semi: true,
         singleQuote: true,
