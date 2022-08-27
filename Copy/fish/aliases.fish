@@ -62,19 +62,7 @@ alias wipe="sudo wipe -rFc"
 alias rm="sudo env rm -rdf TERM=screen-256color rm"
 alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
 
-# PNPM
-alias pn="pnpm"
-alias px="pnpm dlx"
-alias pi="pnpm install"
-alias pa="pnpm add"
-alias pas="pnpm add --save"
-alias pasd="pnpm add --save-dev"
-alias pag="pnpm add -g"
-alias pp="pnpm prune"
-alias pl="pnpm list"
-alias pr="pnpm remove"
-alias pu="pnpm update"
-
+zz
 # editor
 alias v="vim -v"
 alias vim="vim -v"
