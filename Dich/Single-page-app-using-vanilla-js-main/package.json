@@ -1,0 +1,25 @@
+{
+  "name": "spa-vanilla",
+  "version": "1.0.0",
+  "description": "single page application using vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "SPA",
+    "VANILLA",
+    "JS"
+  ],
+  "author": "IJONI VICTOR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}
