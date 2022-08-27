@@ -1,1 +1,0 @@
-/home/cstrp/.fzf/shell/key-bindings.fish
