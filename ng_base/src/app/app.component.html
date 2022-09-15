@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Hello</h1>
+
+  <hr />
+
+  <button (click)="togleCards()">ShowElement</button>
+
+  <hr />
+
+  <div *ngIf="state; else noCards">
+    <app-card
+      *ngFor="let item of cards; let idx = index"
+      [card]="item"
+      [index]="idx + 1"
+    ></app-card>
+  </div>
+
+  <ng-template #noCards> <p>Cards is not visible</p> </ng-template>
+</div>
