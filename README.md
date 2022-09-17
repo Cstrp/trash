@@ -1,1 +1,1 @@
-# Trash content :trollface:
+# Trash content 
