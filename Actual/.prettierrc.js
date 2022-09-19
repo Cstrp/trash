@@ -13,18 +13,4 @@ module.exports = {
   quoteProps: 'as-needed',
   requirePragma: false,
   useTabs: false,
-  overrides: [
-    {
-      files: '*.md',
-      options: {
-        tabWidth: 2,
-        printWidth: 120,
-        semi: true,
-        singleQuote: true,
-        trailingComma: 'all',
-        arrowParens: 'always',
-        endOfLine: 'auto',
-      },
-    },
-  ],
 };

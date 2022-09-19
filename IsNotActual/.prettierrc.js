@@ -1,0 +1,30 @@
+module.exports = {
+  trailingComma: 'all',
+  tabWidth: 2,
+  semi: true,
+  singleQuote: true,
+  printWidth: 120,
+  arrowParens: 'always',
+  endOfLine: 'auto',
+  bracketSpacing: false,
+  embeddedLanguageFormatting: 'auto',
+  htmlWhitespaceSensitivity: 'css',
+  insertPragma: false,
+  quoteProps: 'as-needed',
+  requirePragma: false,
+  useTabs: false,
+  overrides: [
+    {
+      files: '*.md',
+      options: {
+        tabWidth: 2,
+        printWidth: 120,
+        semi: true,
+        singleQuote: true,
+        trailingComma: 'all',
+        arrowParens: 'always',
+        endOfLine: 'auto',
+      },
+    },
+  ],
+};

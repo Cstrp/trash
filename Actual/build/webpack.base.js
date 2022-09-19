@@ -7,6 +7,7 @@ const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 const isDev = process.env.NODE_ENV === 'production';
+
 const fileName = ['index'];
 
 module.exports = {
@@ -24,6 +25,7 @@ module.exports = {
       return `${filePath}/[name][ext]`;
     },
     clean: {
+      dry: false,
       keep: /\.git/,
     },
   },
@@ -116,7 +118,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpe?g|gif|svg|webp|ico|avif)$/i,
+        test: /\.(png|jpe?g|gif|svg|webp|ico|avif|mp3)$/i,
         type: isDev ? 'asset' : 'asset/resource',
         generator: {
           filename: 'assets/img/[name][hash][ext][query]',
