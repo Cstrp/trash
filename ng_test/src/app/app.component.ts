@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng_test';
+  counter: number = 0
+
+  plus(): void {
+   this.counter++
+  }
+
+  minus(): void {
+    this.counter--
+  }
+
+  checker(): void {
+    if (this.counter === 0) {
+
+    }
+  }
 }
