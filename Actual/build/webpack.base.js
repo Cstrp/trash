@@ -1,5 +1,4 @@
 const path = require('path');
-const notifier = require('node-notifier');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -53,21 +52,7 @@ module.exports = {
         }),
     ),
     [
-      new FriendlyWebpackPlugin({
-        onErrors: (severity, errors) => {
-          if (severity !== 'error') {
-            return;
-          }
-          const error = errors[0];
-          notifier.notify({
-            title: 'Webpack error',
-            message: severity + ': ' + error.name,
-            subtitle: error.file || '',
-            sound: true,
-            wait: true,
-          });
-        },
-      }),
+      new FriendlyWebpackPlugin(),
       new ForkTsCheckerWebpackPlugin({
         async: false,
         typescript: {
@@ -119,7 +104,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|webp|ico|avif|mp3)$/i,
-        type: isDev ? 'asset' : 'asset/resource',
+        type:  'asset',
         generator: {
           filename: 'assets/img/[name][hash][ext][query]',
         },
