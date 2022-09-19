@@ -13,19 +13,18 @@ npm install (short - npm i)
 npm start
 ```
 
-> # Base command
+> Base command
 
 | npm              | actions                                             |
 |------------------|-----------------------------------------------------|
 | `npm install`    | install all dependencies                            |
 | `npm start`      | development dev-server                              |
 | `npm run build`  | production       **build: mode production**         |
-| `npm run deploy` | deploy gh-pages                                     | 
+| `npm run deploy` | deploy gh-pages                                     |
 | `npm run dev`    | development      **build: mode development**        |
 | `npm run clean`  | remove folders **dist && cache**                    |
 | `npm run lint-fix`| ESLint config AirBnB --fix all files in src folder |
-| `npm run test` | run jest          |  
-
+| `npm run test`   | run jest                                            |  
 
 > | 📚 Configuration |
 > |------------------|
@@ -34,8 +33,3 @@ npm start
 > | `.eslintrc.js`     |
 > | `.babelrc`         |
 > | `.gitignore`       |
-
-
-
-
-
