@@ -12,5 +12,6 @@ import { FormComponent } from './form/form.component';
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
+  exports: [FormComponent, CardComponent],
 })
 export class AppModule {}
