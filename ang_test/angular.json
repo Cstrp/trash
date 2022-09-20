@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng_test": {
+    "ang_test": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng_test",
+            "outputPath": "dist/ang_test",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng_test:build:production"
+              "browserTarget": "ang_test:build:production"
             },
             "development": {
-              "browserTarget": "ng_test:build:development"
+              "browserTarget": "ang_test:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng_test:build"
+            "browserTarget": "ang_test:build"
           }
         },
         "test": {
@@ -100,11 +100,23 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "05f44fc6-845d-48d9-ba4b-d627e380990e"
+    "analytics": false,
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
