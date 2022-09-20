@@ -1,1 +1,56 @@
-<p>card works!</p>
+<div class="cdk-overlay-dark-backdrop container">
+  <p class="text">card works!</p>
+  <span
+    class="text"
+    [ngStyle]="{
+      color: counter === 0 ? 'blue' : 'red'
+    }"
+    >{{ counter }}</span
+  >
+
+  <button (click)="plus()" class="text">Plus</button>
+  <button (click)="minus()" class="text">Minus</button>
+
+  <!--  <button (click)="addText()">Ogo</button>-->
+  <!--  <p-->
+  <!--    [ngStyle]="{-->
+  <!--      color: textContent !== '' ? 'red' : 'black'-->
+  <!--    }">-->
+  <!--    {{ textContent }}-->
+  <!--  </p>-->
+
+  <!--  <input-->
+  <!--    type="text"-->
+  <!--    class="mat-input-element"-->
+  <!--    (keyup)="inputValue($event)"-->
+  <!--    [placeholder]="placeHolder" />-->
+
+  <!--  <p>{{ inputText }}</p>-->
+
+  <!--  <input type="text" (input)="inputValue($event)" />-->
+  <!--  <p>{{ inputText }}</p>-->
+
+  <!--  <input type="text" #val (input)="inputValue(val.value)" />-->
+  <!--  <p>{{ inputText }}</p>-->
+
+  <!--  <input type="text" (keyup)="inputValue($event)" />-->
+  <!--  <p>{{ inputText }}</p>-->
+
+  <!--  <input type="text" (keyup.enter)="inputValue($event)" />-->
+  <!--  <p>{{ inputText }}</p>-->
+
+  <!--  <input type="text" (keyup.enter)="inputValue($event)" />-->
+  <!--  <input type="text" class="mat-input-element" [(ngModel)]="inputText" />-->
+
+  <!--  <p>{{ inputText }}</p>-->
+
+  <input type="text" [(ngModel)]="name" (input)="inputValue($event)" />
+
+  <button type="submit" (click)="addText()">ClickMe</button>
+
+  <p *ngIf="state; else Add">Da {{ name }}</p>
+
+  <ng-template #Add
+    ><p>Net {{ name }}</p></ng-template
+  >
+</div>

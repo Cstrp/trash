@@ -1,0 +1,11 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  gap: 20px;
+  justify-content: center;
+  .text {
+    font-size: 30px;
+  }
+}
