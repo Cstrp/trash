@@ -1,1 +1,46 @@
-<app-card></app-card>
+<div class="container">
+  <h1>Hello angular</h1>
+
+  <hr />
+
+  <button (click)="toggleCard()">ShowElement</button>
+
+  <input type="text" [(ngModel)]="name" />
+  <input type="text" [(ngModel)]="age" />
+
+  <button (click)="addCard()">AddCard</button>
+
+  <hr />
+
+  <div *ngIf="state; else noCards">
+    <app-card
+      *ngFor="let item of cards; let idx = index"
+      [card]="item"
+      [index]="idx + 1"></app-card>
+  </div>
+
+  <!--  <ul>-->
+  <!--    <li *ngFor="let i of items; let idx = index">-->
+  <!--      <b-->
+  <!--        >ID: {{ i.id }} -&#45;&#45; <i>Number: {{ i.text }}</i-->
+  <!--        ><i> Index: {{ idx + 1 }}</i></b-->
+  <!--      >-->
+  <!--    </li>-->
+  <!--  </ul>-->
+
+  <ul>
+    <li *ngFor="let i of content; let idx = index">
+      <div
+        [ngStyle]="{
+          backgroundColor: (idx + 1) % 2 === 0 ? 'red' : 'white',
+          color: i.name.length > 3 ? 'pink' : 'black'
+        }"
+        [ngClass]="{}">
+        <b>ID: {{ idx + 1 }}</b> Name: {{ i.name }} || Surname:
+        {{ i.surname }} || Age: {{ i.age }}
+      </div>
+    </li>
+  </ul>
+
+  <ng-template #noCards><p>Cards is not visible</p></ng-template>
+</div>

@@ -1,15 +1,19 @@
-<div class="cdk-overlay-dark-backdrop container">
+<div class="container">
   <p class="text">card works!</p>
-  <span
-    class="text"
-    [ngStyle]="{
-      color: counter === 0 ? 'blue' : 'red'
-    }"
-    >{{ counter }}</span
-  >
+  <p>{{ index }}</p>
+  <p>Name: {{ card.name }}</p>
+  <p>Age: {{ card.age }}</p>
 
-  <button (click)="plus()" class="text">Plus</button>
-  <button (click)="minus()" class="text">Minus</button>
+  <!--  <span-->
+  <!--    class="text"-->
+  <!--    [ngStyle]="{-->
+  <!--      color: counter === 0 ? 'blue' : 'red'-->
+  <!--    }"-->
+  <!--    >{{ counter }}</span-->
+  <!--  >-->
+
+  <!--  <button (click)="plus()" class="text">Plus</button>-->
+  <!--  <button (click)="minus()" class="text">Minus</button>-->
 
   <!--  <button (click)="addText()">Ogo</button>-->
   <!--  <p-->
@@ -44,13 +48,27 @@
 
   <!--  <p>{{ inputText }}</p>-->
 
-  <input type="text" [(ngModel)]="name" (input)="inputValue($event)" />
+  <!--  <input type="text" [(ngModel)]="name" (input)="inputValue($event)" />-->
 
-  <button type="submit" (click)="addText()">ClickMe</button>
+  <!--  <button type="submit" (click)="addText()">ClickMe</button>-->
 
-  <p *ngIf="state; else Add">Da {{ name }}</p>
+  <!--  <p *ngIf="state; else Add">Da {{ name }}</p>-->
 
-  <ng-template #Add
-    ><p>Net {{ name }}</p></ng-template
-  >
+  <!--  <ng-template #Add-->
+  <!--    ><p>Net {{ name }}</p></ng-template-->
+  <!--  >-->
+
+  <!--  <div class="mat-dialog-container item">-->
+  <!--    <p>Хочешь служить!?</p>-->
+  <!--    <button (click)="toggleCard()">Yes</button>-->
+  <!--    <p>или</p>-->
+  <!--    <button (click)="toggleCard()">No</button>-->
+
+  <!--    <p *ngIf="state; else yes"></p>-->
+
+  <!--    <ng-template #yes-->
+  <!--      ><p>Yes, yes ,yes</p>-->
+  <!--      <img src="assets/yes.jpg" alt=""-->
+  <!--    /></ng-template>-->
+  <!--  </div>-->
 </div>

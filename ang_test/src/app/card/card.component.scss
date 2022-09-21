@@ -1,11 +1,7 @@
 .container {
-  max-width: 1200px;
   display: flex;
-  flex-flow: column wrap;
-  text-align: center;
-  gap: 20px;
-  justify-content: center;
-  .text {
-    font-size: 30px;
-  }
+  gap: 10px;
+  background-color: #f1069b;
+  padding: 15px;
+  margin: 0 auto;
 }
