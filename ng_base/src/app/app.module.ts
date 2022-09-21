@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 
 import { CardComponent } from './card/card.component';
 import { FormComponent } from './form/form.component';
+import { NgForOf } from '@angular/common';
 
 @NgModule({
   declarations: [AppComponent, CardComponent, FormComponent],
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, NgForOf],
   providers: [],
   bootstrap: [AppComponent],
   exports: [FormComponent, CardComponent],

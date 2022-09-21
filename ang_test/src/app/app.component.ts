@@ -6,8 +6,9 @@ export interface ICards {
 }
 
 interface IItem {
-  id: number
-  text: string
+  name: string
+  age: string
+  state: boolean
 }
 
 interface ICardContent {
@@ -24,11 +25,11 @@ interface ICardContent {
 export class AppComponent {
   title = 'ang_test'
 
-  name: string = ''
-
-  age: string = ''
-
-  state: boolean = false
+  protected props: IItem = {
+    name: '',
+    age: '',
+    state: false
+  }
 
   cards: ICards[] = [
     {
@@ -63,19 +64,32 @@ export class AppComponent {
     }
   ]
 
-  items: IItem[] = [
-    { id: 1, text: 'One' },
-    { id: 2, text: 'Two' },
-    { id: 3, text: 'Three' }
+  // items: IItem[] = [
+  //   { id: 1, text: 'One' },
+  //   { id: 2, text: 'Two' },
+  //   { id: 3, text: 'Three' }
+  // ]
+
+  date = [
+    new Date(2022, 22, 22),
+    new Date(2021, 32, 2),
+    new Date(2021, 11, 2),
+    new Date(2021, 22, 1)
   ]
 
   toggleCard(): void {
-    this.state = !this.state
+    this.props.state = !this.props.state
+  }
+
+  setCard(car: ICards[]) {
+    return car.length === 3
   }
 
   addCard() {
-    if (this.cards) this.cards.push({ name: this.name, age: this.age })
-    this.name = ''
-    this.age = ''
+    if (this.props.name.length !== 0 && this.props.age.length !== 0) {
+      this.cards.push({ name: this.props.name, age: this.props.age })
+      this.props.name = ''
+      this.props.age = ''
+    }
   }
 }

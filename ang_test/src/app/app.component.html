@@ -5,19 +5,28 @@
 
   <button (click)="toggleCard()">ShowElement</button>
 
-  <input type="text" [(ngModel)]="name" />
-  <input type="text" [(ngModel)]="age" />
+  <input type="text" [(ngModel)]="props.name" />
+  <input type="text" [(ngModel)]="props.age" />
 
   <button (click)="addCard()">AddCard</button>
 
   <hr />
 
-  <div *ngIf="state; else noCards">
+  <div *ngIf="props.state; else noCards">
     <app-card
       *ngFor="let item of cards; let idx = index"
       [card]="item"
       [index]="idx + 1"></app-card>
   </div>
+
+  <ul>
+    <li *ngFor="let i of date; let ixd = index">
+      <div>
+        <b>{{ ixd + 1 }}</b> ---
+        {{ i.toDateString() | date: 'medium' | uppercase }}
+      </div>
+    </li>
+  </ul>
 
   <!--  <ul>-->
   <!--    <li *ngFor="let i of items; let idx = index">-->
@@ -28,19 +37,19 @@
   <!--    </li>-->
   <!--  </ul>-->
 
-  <ul>
-    <li *ngFor="let i of content; let idx = index">
-      <div
-        [ngStyle]="{
-          backgroundColor: (idx + 1) % 2 === 0 ? 'red' : 'white',
-          color: i.name.length > 3 ? 'pink' : 'black'
-        }"
-        [ngClass]="{}">
-        <b>ID: {{ idx + 1 }}</b> Name: {{ i.name }} || Surname:
-        {{ i.surname }} || Age: {{ i.age }}
-      </div>
-    </li>
-  </ul>
+  <!--  <ul>-->
+  <!--    <li *ngFor="let i of content; let idx = index">-->
+  <!--      <div-->
+  <!--        [ngStyle]="{-->
+  <!--          backgroundColor: (idx + 1) % 2 === 0 ? 'red' : 'white',-->
+  <!--          color: i.name.length > 3 ? 'pink' : 'black'-->
+  <!--        }"-->
+  <!--        [ngClass]="{ active: setCard(cards) }">-->
+  <!--        <b>ID: {{ idx + 1 }}</b> Name: {{ i.name }} || Surname:-->
+  <!--        {{ i.surname }} || Age: {{ i.age }}-->
+  <!--      </div>-->
+  <!--    </li>-->
+  <!--  </ul>-->
 
   <ng-template #noCards><p>Cards is not visible</p></ng-template>
 </div>

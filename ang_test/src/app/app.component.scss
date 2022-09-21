@@ -1,3 +1,11 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
 .item {
   display: flex;
   justify-content: center;
@@ -11,4 +19,19 @@ button {
 
 p {
   font-size: 20px;
+}
+
+.active {
+  font-size: large;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  padding: 0;
 }
