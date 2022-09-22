@@ -16,9 +16,23 @@
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/template/process-inline-templates"
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "airbnb-typescript/base",
+        //        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended"
       ],
       "rules": {
+        "@typescript-eslint/no-explicit-any": ["error"],
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "import/prefer-default-export": 0,
+        "import/no-dynamic-require": 0,
+        "import/order": 0,
+        "@typescript-eslint/no-useless-constructor": 0,
+        "@typescript-eslint/no-shadow": 0,
+        "no-empty-function": 1,
+        "@angular-eslint/no-empty-lifecycle-method": ["warn"],
+        "import/no-extraneous-dependencies": 0,
         "@angular-eslint/directive-selector": [
           "error",
           {
