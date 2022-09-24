@@ -2,16 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 import * as moment from 'moment';
-
-export interface ITask {
-  id?: string;
-  title: string;
-  date?: string;
-}
-
-interface ICreate {
-  name: string;
-}
+import { ITask } from '../Interfaces/ITask';
+import { ICreate } from '../Interfaces/ICrerate';
 
 @Injectable({ providedIn: 'root' })
 export class TaskService {

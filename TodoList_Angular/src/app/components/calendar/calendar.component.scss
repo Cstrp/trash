@@ -1,23 +1,24 @@
 table {
   width: 100%;
   margin-bottom: 1rem;
-  border-collapse: collapse;
+  //border-collapse: collapse;
 
   td,
   th {
-    border: 1px solid #000;
+    border: 1px solid #333333;
     padding: 0.7rem 1rem;
   }
 
-  td {
+  .calendar {
     text-align: center;
     transition: all 0.2s;
+
     &.disabled {
       opacity: 0.5;
     }
 
     &:hover {
-      background: #eee;
+      background: rgba(238, 238, 238, 0.09);
       cursor: pointer;
     }
 
@@ -34,4 +35,15 @@ table {
   .selected {
     color: var(--primary-color);
   }
+}
+
+th {
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: large;
+}
+
+th:hover {
+  background: rgba(255, 255, 255, 0.3);
 }

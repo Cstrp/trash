@@ -1,37 +1,34 @@
-<section>
-  <header>
-    Today: <strong>{{dateService.date | async | moment: 'DD.MM.YY'}}</strong>
-    <hr/>
-  </header>
+<div class="section">
+  <div class="header">
+    Today: <strong>{{ dateService.date | async | moment: "DD.MM.YY" }}</strong>
+    <hr />
+  </div>
 
-  <main>
+  <div>
     <ul *ngIf="tasks.length; else noTasks">
       <li class="task" *ngFor="let task of tasks; let i = index">
-           <span class="loh">
-             <strong>{{i + 1}}</strong>
-             {{task.title}}
-           </span>
+        <span class="loh">
+          <strong>{{ i + 1 }}</strong>
+          {{ task.title }}
+        </span>
+        <button class="edit"></button>
         <button class="remove" (click)="remove(task)"></button>
       </li>
     </ul>
-
     <ng-template #noTasks>
-      <p class="text-center">???????????????</p>
+      <p class="text-center">There are currently no tasks...</p>
     </ng-template>
-  </main>
+  </div>
 
-
-  <footer>
+  <div>
     <form class="inputPlus" (ngSubmit)="submit()" [formGroup]="form">
-
-      <input type="text" formControlName="title">
-
-      <button
-        type="submit"
-        class="button__plus"
-        [disabled]="form.invalid"
-      ></button>
-
+      <input
+        type="text"
+        formControlName="title"
+        class="inputPlusTitle"
+        placeholder="Type here..."
+      />
+      <button class="inputPlusButton" [disabled]="form.invalid"></button>
     </form>
-  </footer>
-</section>
+  </div>
+</div>

@@ -14,8 +14,8 @@ body {
   font-family: "Cantarell", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background: #fff;
-  color: #333;
+  background: #000000;
+  color: #ffffff;
 }
 
 a {
@@ -50,15 +50,15 @@ input {
   padding: 0 2rem;
 }
 
-table th {
-  background: var(--light-color);
-}
+//table th {
+//  background: var(--light-color);
+//}
 
 .btn {
   display: inline-block;
   cursor: pointer;
   background: var(--light-color);
-  color: var(--dark-color);
+  color: var(--light-color);
   border: none;
   outline: none;
   margin-right: .4rem;

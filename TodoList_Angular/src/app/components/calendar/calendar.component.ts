@@ -1,17 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as moment from 'moment';
 import { DateService } from '../../shared/date.service';
-
-interface IDay {
-  value: moment.Moment;
-  active: boolean;
-  disabled: boolean;
-  selected: boolean;
-}
-
-interface IWeek {
-  days: IDay[];
-}
+import { IWeek } from '../../Interfaces/IWeek';
+import { week } from '../../const /week';
 
 @Component({
   selector: 'app-calendar',
@@ -20,6 +11,8 @@ interface IWeek {
 })
 export class CalendarComponent implements OnInit {
   calendar!: IWeek[];
+
+  week = week;
 
   constructor(public dateService: DateService) {}
 
@@ -55,11 +48,10 @@ export class CalendarComponent implements OnInit {
           }),
       });
     }
-
     this.calendar = calendar;
   }
 
-  select(value: moment.Moment) {
-    this.dateService.changeDate(value);
+  select(item: moment.Moment) {
+    this.dateService.changeDate(item);
   }
 }

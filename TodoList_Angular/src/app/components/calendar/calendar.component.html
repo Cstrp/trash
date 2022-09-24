@@ -1,31 +1,22 @@
-<table>
-  <thead>
-  <tr class="mat-toolbar-multiple-rows">
-    <th>Sunday</th>
-    <th>Monthday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-    <th>Saturday</th>
-  </tr>
+<table class="table">
+  <thead *ngFor="let days of week">
+    <tr>
+      <th>{{ days }}</th>
+    </tr>
   </thead>
 
   <tbody>
-  <tr class="mat-selected"
-      *ngFor="let week of calendar">
-    <td
-      *ngFor="let day of week.days"
-      [class.disabled]="day.disabled"
-      [class.active]="day.active"
-      (click)="select(day.value)"
-
-    >
-      <span
-        [class.selected]="day.selected"
+    <tr *ngFor="let week of calendar">
+      <td
+        *ngFor="let day of week.days"
+        [class.disabled]="day.disabled"
         [class.active]="day.active"
-      > {{day.value | moment: "DD"}}</span>
-    </td>
-  </tr>
+        (click)="select(day.value)"
+      >
+        <span [class.selected]="day.selected" [class.active]="day.active">
+          {{ day.value | moment: "DD" }}</span
+        >
+      </td>
+    </tr>
   </tbody>
 </table>

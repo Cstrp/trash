@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { DateService } from '../../shared/date.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { ITask, TaskService } from '../../shared/task.service';
-import { switchAll, switchMap } from 'rxjs';
+import { TaskService } from '../../shared/task.service';
+import { switchMap } from 'rxjs';
+import { ITask } from '../../Interfaces/ITask';
 
 @Component({
   selector: 'app-organizer',
@@ -44,8 +45,6 @@ export class OrganizerComponent implements OnInit {
       },
       (error) => console.error(error)
     );
-
-    console.log(title);
   }
 
   remove(task: ITask) {

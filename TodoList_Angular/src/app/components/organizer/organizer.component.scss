@@ -1,32 +1,52 @@
-section {
+.section {
   display: flex;
   width: 100%;
   flex-flow: column wrap;
   border: 1px solid black;
   padding: 1rem;
+  color: black;
 
-  header {
+  .header {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
     margin-bottom: 1rem;
+    font-size: 20px;
+    color: var(--light-color);
   }
 }
 
 .task {
-  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 25px;
+  grid-template-columns: 1fr 25px 35px;
   margin-bottom: 20px;
-  background-color: #dbe2ef;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
+  padding: 12px 15px;
+
   .remove {
     display: block;
-    height: auto;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    height: 100%;
     border: none;
     cursor: pointer;
-    background: #883faf url("../../../assets/trash.svg") no-repeat center center;
+    background: url("../../../assets/trash.svg") no-repeat center center;
     padding: 0;
     transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .edit {
+    display: block;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background: url("../../../assets/edit.svg") no-repeat center center;
+    padding: 0;
+    transition: opacity 0.3s;
+
     &:hover {
       opacity: 0.7;
     }
@@ -38,17 +58,31 @@ section {
   display: grid;
   grid-template-columns: 1fr 60px;
   margin-bottom: 20px;
-}
 
-.button__plus {
-  border-radius: none;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border: none;
-  cursor: pointer;
-  background: #883faf url("../../../assets/plus.svg") no-repeat center center;
+  &Title {
+    border: 1px solid #b1b1b1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 10px;
+    font: 1rem/1.4 "Roboto", sans-serif;
+    background-color: #dbe2ef;
 
-  &:hover {
-    opacity: 0.8;
+    &::placeholder {
+      color: #000000;
+    }
+  }
+
+  &Button {
+    border-radius: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #883faf url("../../../assets/plus.svg") no-repeat center center;
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
