@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48b0e9ce-38d4-4e9c-a1b0-35a73f14e06e" name="Changes" comment="???">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trash.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actual/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Actual/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actual/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Actual/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actual/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Actual/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/build/webpack.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/build/webpack.base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/build/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/build/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/build/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/src/View/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/src/View/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/src/View/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/src/View/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/tsconfig.node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwsmWebpackBuild/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/AwsmWebpackBuild/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/build/webpack.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/build/webpack.base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/build/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/build/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/build/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/src/view/Template/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/src/view/Template/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/src/view/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/src/view/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IsNotActual/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/IsNotActual/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/build/webpack.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/build/webpack.base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/build/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/build/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/build/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/src/images/test.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/src/images/test.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/src/pages/index/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/src/pages/index/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/src/pages/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/src/pages/index/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/src/pages/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/src/pages/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/src/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/src/pages/index/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBuild/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBuild/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test3/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Test3/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webpack-test-config-test/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack-test-config-test/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/build/webpack.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/build/webpack.base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/build/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/build/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/build/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/src/View/styles/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/src/View/styles/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/src/View/styles/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/src/View/styles/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/tsconfig.node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebpackBuild/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebpackBuild/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/config/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.idea/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config/.idea/config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/0b6cd24fe80f932a8335.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/0b6cd24fe80f932a8335.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/0db7fae49576e066ca85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/0db7fae49576e066ca85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/19357244d9b69a3be1b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/19357244d9b69a3be1b1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/1a549cf3748db0e2446f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/1a549cf3748db0e2446f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/20bd9a8877b994e93f4f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/20bd9a8877b994e93f4f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/2c31a76a21eaa4db8e42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/2c31a76a21eaa4db8e42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/366be5ea29c9f36c86a9.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/366be5ea29c9f36c86a9.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/37d2e69c34fce76c0c64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/37d2e69c34fce76c0c64.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/38702ad7deef11669f63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/38702ad7deef11669f63.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/40de16b24f9d2fa384ee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/40de16b24f9d2fa384ee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/50f501c6f0af7536adb0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/50f501c6f0af7536adb0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/518d69e2485f27a1db79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/518d69e2485f27a1db79.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/5464092f5ecb25e0f66b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/5464092f5ecb25e0f66b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/596826bfa12b72d816b5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/596826bfa12b72d816b5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/5f59c98078fbcf3d5ccd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/5f59c98078fbcf3d5ccd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/611f159384dd6b7eebb6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/611f159384dd6b7eebb6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/62eef035710f85acc534.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/62eef035710f85acc534.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/73b5f8ebf1773db67661.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/73b5f8ebf1773db67661.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/7d38b096466d8c091588.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/7d38b096466d8c091588.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/8ba518cf8023a715a2a2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/8ba518cf8023a715a2a2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/a3426fa01403ea2bc805.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/a3426fa01403ea2bc805.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/bbe0451f5b046e80db67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/bbe0451f5b046e80db67.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/cbcb7cad818cdd92ef38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/cbcb7cad818cdd92ef38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/ce038a124ee36493e6dc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/ce038a124ee36493e6dc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/d501af4d37ac9628c0f7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/d501af4d37ac9628c0f7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/dafd4e0f79b2995e6346.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/dafd4e0f79b2995e6346.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/e521df59db294d105551.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/e521df59db294d105551.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/e9a204fc15296a5b1e72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/e9a204fc15296a5b1e72.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/ed42aa5acbfcaaddd0a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/ed42aa5acbfcaaddd0a8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/ee1d51410e2f78f525e0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/ee1d51410e2f78f525e0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/ee52aa2d78af53a6f510.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/ee52aa2d78af53a6f510.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/f57a42581e9492a0afd6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/f57a42581e9492a0afd6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/f8eb64c8921b4ed257e0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/f8eb64c8921b4ed257e0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dist/main.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dist/main.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test001/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test001/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/bs-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/bs-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/karma-test-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/karma-test-shim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/config/webpack.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/config/webpack.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/karma.webpack.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/karma.webpack.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/assets/images/angular.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/assets/images/angular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/systemjs-angular-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/systemjs-angular-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/systemjs.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/systemjs.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/tsconfig.1.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/tsconfig.1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/src/vendor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/src/vendor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpackAngularTest/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpackAngularTest/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="webpack_config" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F5cb8rDBWr4B2w4x912ZhNT8TU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/_cstrp/Documents/trash&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/_cstrp/Documents/trash/TodoList_Angular/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/_cstrp/Documents/trash/TodoList_Angular/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/TodoList_Angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Organizer/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/TodoList_Angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48b0e9ce-38d4-4e9c-a1b0-35a73f14e06e" name="Changes" comment="" />
+      <created>1663785454995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663785454995</updated>
+      <workItem from="1663785458559" duration="1652000" />
+      <workItem from="1663838263460" duration="9910000" />
+      <workItem from="1663855684029" duration="2340000" />
+      <workItem from="1663864185492" duration="266000" />
+      <workItem from="1663864462593" duration="457000" />
+      <workItem from="1663864928183" duration="6295000" />
+      <workItem from="1663876032272" duration="9207000" />
+      <workItem from="1663919883360" duration="8656000" />
+      <workItem from="1663938619870" duration="3380000" />
+      <workItem from="1664140531544" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
