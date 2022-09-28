@@ -158,3 +158,8 @@ module.exports = {
     asyncWebAssembly: true,
   },
 };
+
+
+const base = () => {
+  return 'переписаные плагины'
+}
