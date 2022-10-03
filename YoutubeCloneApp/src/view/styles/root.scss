@@ -1,0 +1,111 @@
+$Burnt: #f2785c;
+$Sapphire: #0D606F;
+$Blue: #1877F2;
+
+.body {
+  position: relative;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@mixin Cyclist {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 auto;
+  align-items: center;
+  max-width: 100px;
+  min-height: 100px;
+  background-color: $Burnt;
+  background-image: url("../../assets/img/svg/sport.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+@mixin Calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  min-height: 100px;
+  flex: 1 0 auto;
+  background-color: $Burnt;
+  background-image: url("../../assets/img/svg/calendar.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+@mixin Airplane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  min-height: 100px;
+  flex: 1 0 auto;
+  background-color: $Burnt;
+  background-image: url("../../assets/img/svg/airplane.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+
+@font-face {
+  font-family: 'Aleo-Bold';
+  font-style: normal;
+  src: local('Aleo-Bold'), url("../../assets/font/Aleo-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Aleo-BoldItalic';
+  font-style: normal;
+  src: local('Aleo-BoldItalic'), url("../../assets/font/Aleo-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: 'Aleo-Italic';
+  font-style: normal;
+  src: local('Aleo-Italic'), url("../../assets/font/Aleo-Italic.ttf");
+}
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  font-style: normal;
+  src: local('Aleo-Regular'), url("../../assets/font/Aleo-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Marga-Bold';
+  font-style: normal;
+  src: local('Marga-Bold'), url("../../assets/font/Magra-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'RedHatText';
+  font-style: normal;
+  src: local('RedHatText-'), url("../../assets/font/RedHatText-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'RedHatText-Regular';
+  font-style: normal;
+  src: local('RedHatText-Regular'), url("../../assets/font/RedHatText-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Satisfy-Regular';
+  font-style: normal;
+  src: local('Satisfy-Regular'), url("../../assets/font/Satisfy-Regular.ttf");
+}

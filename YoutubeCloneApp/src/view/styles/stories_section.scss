@@ -1,0 +1,102 @@
+.stories {
+  min-height: 1331px;
+  background: url("../../assets/img/niceLake.png") center center / cover no-repeat;
+  position: relative;
+
+  .stories__wrapper {
+    width: 100%;
+    min-height: 1270px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.stories__cards-wrapper {
+  max-width: 1200px;
+  min-height: 1222px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+
+}
+
+.stories__card-item {
+  display: flex;
+  gap: 40px;
+  transition: 0.7s all ease;
+
+  &:hover {
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.8),
+      2px 2px rgba(255, 255, 255, 0.8),
+      3px 3px rgba(255, 255, 255, 0.8),
+      4px 4px rgba(255, 255, 255, 0.8),
+      5px 5px rgba(255, 255, 255, 0.8),
+      6px 6px rgba(255, 255, 255, 0.8),
+      7px 7px rgba(255, 255, 255, 0.8);
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+  }
+
+  .stories__card-img {
+    width: 400px;
+    height: 250px;
+  }
+
+  .stories__card-title {
+    font-family: 'Aleo-Regular', serif;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 42px;
+    color: $Sapphire;
+  }
+
+  .stories__card-desc {
+    margin-top: 14px;
+    font-family: 'Aleo-Regular', serif;
+    color: $Sapphire;
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 24px;
+    text-align: justify;
+  }
+
+  .stories__card-more {
+    font-family: 'Aleo-Regular', serif;
+    color: $Sapphire;
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 24px;
+  }
+}
+
+.stories__btn-wrap {
+  display: flex;
+  justify-content: center;
+
+  .stories__btn-more {
+    padding: 13.5px 31px 13.5px 81px;
+    background-color: $Sapphire;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: RedHatText, inherit;
+    color: #fff;
+    background-image: url("../../assets/img/svg/arrow.svg");
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: 20% center;
+    -webkit-transition: 0.2s all;
+    -o-transition: 0.2s all;
+    transition: 0.2s all;
+
+    &:hover,
+    :focus {
+      background-image: url("../../assets/img/svg/arrow.svg");
+      background-repeat: no-repeat;
+      background-position: 25% center;
+    }
+
+  }
+}

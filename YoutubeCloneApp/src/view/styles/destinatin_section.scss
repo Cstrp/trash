@@ -1,0 +1,128 @@
+.destination {
+  margin-top: 80px;
+  margin-bottom: 97px;
+  
+  .destination__wrapper {
+    margin: 0 auto;
+    max-width: 2520px;
+    position: relative;
+    text-align: center;
+    
+    .destination__title {
+      color: $Burnt;
+      font-family: 'RedHatText', serif;
+      font-size: 40px;
+      line-height: 1.9em;
+      font-weight: 500;
+    }
+    
+  }
+}
+
+
+.destination__cards {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  gap: 60px;
+  overflow: hidden;
+  width: 100%;
+  
+  .destination__card {
+    position: relative;
+    
+    &::after {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      border-radius: 15px;
+    }
+    
+    .destination__card-pic {
+      width: 800px;
+      height: 800px;
+    }
+    
+    .destination__card-title {
+      font-size: 32px;
+      line-height: 42px;
+      color: white;
+      position: absolute;
+      bottom: 40px;
+      left: 15px;
+      z-index: 3;
+    }
+  }
+}
+
+.destination__dots {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  justify-content: space-between;
+  //  margin-top: 25px;
+  margin: 25px auto;
+  
+  
+  .destination__dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: $Burnt;
+    cursor: pointer;
+    
+    &:first-child {
+      background: rgba(242, 120, 92, 0.5);
+    }
+    
+    &:last-child {
+      background: rgba(242, 120, 92, 0.5);
+    }
+  }
+  
+}
+
+.destination__btn-wrap {
+  margin-top: 40px;
+  
+  .destination__btn-more {
+    padding: 13.5px 31px 13.5px 81px;
+    background-color: $Sapphire;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: RedHatText, inherit;
+    color: #fff;
+    background-image: url("../../assets/img/svg/arrow.svg");
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: 20% center;
+    -webkit-transition: 0.2s all;
+    -o-transition: 0.2s all;
+    transition: 0.2s all;
+    
+    &:hover, :focus {
+      background-image: url("../../assets/img/svg/arrow.svg");
+      background-repeat: no-repeat;
+      background-position: 25% center;
+    }
+  }
+}
+
+.stories__title {
+  color: $Burnt;
+  font-family: 'RedHatText', serif;
+  font-size: 40px;
+  line-height: 1.9em;
+  font-weight: 500;
+  margin-top: 80px;
+  margin-bottom: -40px;
+}

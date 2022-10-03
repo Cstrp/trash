@@ -1,0 +1,72 @@
+
+.steps {
+  margin-top: 80px;
+  margin-bottom: 97px;
+  
+  .steps__wrapper {
+    max-width: 1177px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    
+    .steps__title {
+      color: $Burnt;
+      font-family: 'RedHatText', serif;
+      font-size: 40px;
+      line-height: 1.9em;
+      font-weight: 500;
+      
+    }
+  }
+}
+
+.steps__cards {
+  max-width: 994px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+  
+  .cyclist {
+    @include Cyclist();
+    transition: 1.5s all;
+    
+    &:hover {
+      transform: rotateX(360deg);
+    }
+  }
+  
+  .calendar {
+    @include Calendar();
+    transition: 0.5s;
+    
+    &:hover {
+      transform: rotateY(180deg);
+    }
+  }
+  
+  .airplane {
+    @include Airplane();
+    transition: 1.5s all;
+    
+    &:hover {
+      transform: rotateX(360deg);
+    }
+  }
+}
+
+
+.steps__cards-title-wrap {
+  max-width: 1177px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: $Sapphire;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 30px 0 0 35px;
+  
+  :nth-child(2n) {
+    margin-left: 15px;
+  }
+}
