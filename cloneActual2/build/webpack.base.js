@@ -4,10 +4,8 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const ClearCachePlugin = require('./webpackclearcache')
 const fs = require('fs')
-
-console.log(ClearCachePlugin)
+const ClearCachePlugin = require('./webpackclearcache');
 
 const isDev = process.env.NODE_ENV === 'production';
 
@@ -65,7 +63,6 @@ module.exports = {
     ),
     [
       new FriendlyWebpackPlugin(),
-      new ClearCachePlugin({ silent: false, dirname: 'cache' }),
       new ForkTsCheckerWebpackPlugin({
         async: false,
         typescript: {
@@ -78,6 +75,7 @@ module.exports = {
         failOnError: false,
         exclude: 'node_modules',
       }),
+      new ClearCachePlugin({ silent: false })
     ].filter(Boolean),
   ),
   module: {
