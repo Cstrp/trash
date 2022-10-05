@@ -1,9 +1,10 @@
 const fs = require('fs')
 
 class ClearCachePlugin {
-    constructor({silent, dirname = 'cache'}) {
+    constructor({silent, dirname = 'cache', optimize}) {
         this.isSilent = silent
         this.dirname = dirname
+        this.optimize = optimize
     }
 
     clear(props) {
@@ -27,12 +28,22 @@ class ClearCachePlugin {
     }
 
     apply(compiler) {
-        compiler.hooks.shutdown.tap(
+        if (!this.optimize) {
+            compiler.hooks.assetEmitted.tap(
             'Clear Cache Plugin',
             (s) => {
                 console.log('shutdown')
-            }
-        )
+                this.start()
+            })
+        } else {
+             compiler.hooks.shutdown.tap(
+            'Clear Cache Plugin',
+            (s) => {
+                console.log('shutdown')
+                this.start()
+            })
+        }
+        console.log(this.optimize)
     }
 }
 

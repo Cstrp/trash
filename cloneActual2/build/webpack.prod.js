@@ -5,6 +5,9 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const PurgeCSSPlugin = require('purgecss-webpack-plugin');
 const WebpackBar = require('webpackbar');
 const glob = require('glob');
+const ClearCachePlugin = require('./webpackclearcache');
+
+optimize = false
 
 module.exports = {
   mode: 'production',
@@ -17,6 +20,10 @@ module.exports = {
       paths: glob.sync(`${path.join(__dirname, '../src')}/**/*`, { nodir: true }),
     }),
     new WebpackBar(),
+    new ClearCachePlugin({ 
+      silent: false,
+      optimize: false
+    })
   ],
   optimization: {
     minimizer: [

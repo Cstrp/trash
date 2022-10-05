@@ -1,4 +1,5 @@
 const path = require('path');
+const ClearCachePlugin = require('./webpackclearcache');
 
 const defaultUrls = [];
 
@@ -10,6 +11,12 @@ module.exports = {
     removeEmptyChunks: false,
     splitChunks: false,
   },
+  plugins: [
+    new ClearCachePlugin({ 
+      silent: true,
+      optimize: true
+    })
+  ],
   devServer: {
     static: {
       directory: path.join(__dirname, '../dist'),
