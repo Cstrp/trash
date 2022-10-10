@@ -1,0 +1,101 @@
+.prefecture_section {
+    position: absolute;
+    width: 1271px;
+    height: 785px;
+    left: 5.9%;
+    right: 5.83%;
+    top: 41.68%;
+    bottom: 44.63%;
+}
+
+.totori {
+    margin-top: -1px;
+    margin-left: -0px;
+    width: 1224px;
+    height: 354px;
+    transition: 1s all ease-out;
+}
+
+.totori_img {
+    width: 597px;
+    height: 354px;
+    float: left;
+}
+
+.totori_title {
+    position: relative;
+    left: 108px;
+    top: 25px;
+}
+
+.totori_text {
+    position: relative;
+    width: 519px;
+    text-align: justify;
+    float: left;
+    left: 108px;
+    top: 110px;
+}
+
+.totori_button {
+    position: relative;
+    left: 108px;
+    top: 170px;
+}
+
+.arishiyama {
+    margin-top: 77px;
+    margin-right: 0px;
+    width: 1224px;
+    height: 354px;
+    transition: 1s all ease-out;
+}
+
+.arishiyama_img {
+    width: 597px;
+    margin-top: -25px;
+    height: 354px;
+    float: right;
+}
+
+.arishiyama_title {
+    margin-top: 103px;
+}
+
+.arishiyama_text {
+    width: 519px;
+    text-align: justify;
+    float: left;
+    margin-top: 45px;
+    text-align: justify;
+}
+
+.arishiyama_button {
+    margin-top: 174px;
+}
+
+.totori:hover {
+    box-shadow:
+    1px 1px #0E1D28,
+    2px 2px #0E1D28,
+    3px 3px #0E1D28,
+    4px 4px #0E1D28,
+    5px 5px #0E1D28,
+    6px 6px #0E1D28,
+    7px 7px #0E1D28;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+.arishiyama:hover {
+    box-shadow:
+    1px 1px #0E1D28,
+    2px 2px #0E1D28,
+    3px 3px #0E1D28,
+    4px 4px #0E1D28,
+    5px 5px #0E1D28,
+    6px 6px #0E1D28,
+    7px 7px #0E1D28;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}

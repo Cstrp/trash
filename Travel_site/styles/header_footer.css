@@ -1,0 +1,95 @@
+/* header */
+.header_container {
+    position: absolute;
+    left: 13.26%;
+    right: 13.12%;
+    top: 0.98%;
+    bottom: 98.48%;
+    max-width: 1060px;
+    max-height: 31px;
+}
+
+
+.header_nav {
+    width: 490px;
+    height: 31px;
+    position: absolute;
+    height: 24px;
+    left: 53.6%;
+    right: 42.99%;
+    top: 4px;
+    z-index: 5;
+}
+
+
+.header_nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+
+/* footer */
+
+.footer_container {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 93.55%;
+    bottom: 0%;
+    background: #0E1D28;
+}
+
+.footer_logo {
+    position: absolute;
+    left: 13.47%;
+    right: 74.72%;
+    top: 32%;
+    bottom: 3.26%;
+    width: 170px;
+    height: 64px;
+}
+
+.footer_link {
+    display: flex;
+    position: relative;
+    height: 24px;
+    left: 19%;
+    top: 32.5%;
+    width: 560px;
+    height: 134px;
+    gap: 140px;
+}
+
+.title_link {
+    font-size: 18px;
+}
+
+.title_link:hover {
+    color: var(--color-font-gold);
+}
+
+.company {
+    Width: 150px;
+    Height: 134px;
+    padding: 5px 5px;
+}
+
+.locations {
+    Width: 115px;
+    margin-left: -25px;
+    Height: 134px;
+    padding: 5px 5px;
+}
+
+.social {
+    Width: 145px;
+    Height: 134px;
+    margin-left: -15px;
+    padding: 5px 5px;
+}
+
+li:hover {
+    color: var(--color-font-light-blue);
+}

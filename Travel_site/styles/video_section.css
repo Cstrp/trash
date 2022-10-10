@@ -1,0 +1,353 @@
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+    -webkit-appearance: button;
+}
+
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+template {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-family: Forum, cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+.bg-dark {
+    background-color: var(--bg-dark);
+    color: #fff;
+}
+
+[poster] {
+    object-fit: fill;
+    width: 100%;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background: 0 0;
+}
+
+button,
+button:active,
+button:focus {
+    outline: 0;
+}
+
+.video_section {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 82.93%;
+    bottom: 6.45%;
+}
+
+#video {
+
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+}
+
+.video-container {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.video-frame {
+    display: block;
+    width: 100%;
+}
+
+.frame-video:hover,
+.mute-video:hover,
+.next-video:hover,
+.play-video:hover,
+.prev-video:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+button.disabled {
+    opacity: 0.7;
+}
+
+.video-container:hover .video-bar {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.video-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    padding-left: 41px;
+    padding-right: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 41px;
+    background-color: #000;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.video-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 41px;
+}
+
+.prev-video {
+    width: 27px;
+    height: 40px;
+    background-image: url(../assets/svg/prev-video.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s ease;
+}
+
+.next-video {
+    width: 27px;
+    height: 40px;
+    background-image: url(../assets/svg/next-video.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s ease;
+}
+
+.play-video {
+    width: 23px;
+    height: 30px;
+    background: url(../assets/svg/play-video.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s ease;
+}
+
+.progress {
+    height: 8px;
+    width: 820px;
+    outline: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.progress::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #fff;
+}
+
+.mute-video {
+    width: 38px;
+    height: 30px;
+    background-image: url(../assets/svg/Volume.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s ease;
+}
+
+.progress-value {
+    margin-left: 20px;
+    margin-right: 48px;
+    width: 155px;
+    background: linear-gradient(to right,
+            #24809e 0,
+            #24809e 10%,
+            #c4c4c4 50%,
+            #c4c4c4 100%);
+}
+
+.frame-video {
+    width: 36px;
+    height: 36px;
+    background-image: url(../assets/svg/FullScreen.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s ease;
+}
+
+.value-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-wrap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-journey-container {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video p {
+    width: 720px;
+    margin: 0;
+    font-style: normal;
+    line-height: 38px;
+    letter-spacing: 0.1px;
+}
+
+.video-text {
+    width: 720px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.video-journey-frame-container {
+    display: flex;
+    width: 1480px;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.video-slider-pagination {
+    position: absolute;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    min-height: 12px;
+}
+
+#centre {
+    border-radius: 50%;
+    background-color: #999999;
+}
+
+#right {
+    width: 10px;
+    height: 12px;
+    background-image: url(./assets/svg/Vector\ \(Stroke\)-1.svg);
+}
+
+#left {
+    width: 10px;
+    height: 12px;
+    background-image: url(./assets/svg/Vector\ \(Stroke\).svg);
+}
+
+:-webkit-full-screen video {
+    width: 100%;
+    height: 100%;
+}
+
+:-moz-full-screen video {
+    width: 100%;
+    height: 100%;
+}

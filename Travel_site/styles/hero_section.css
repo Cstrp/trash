@@ -1,0 +1,119 @@
+.background_image {
+    max-width: 1440px;
+    height: 962px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 83.23%;
+    background: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%);
+}
+
+.header_hero {
+    position: absolute;
+    left: 13.26%;
+    right: 43.75%;
+    top: 4.59%;
+    bottom: 93.31%;
+}
+
+.support_hero p {
+    position: absolute;
+    left: 13.26%;
+    right: 48.82%;
+    top: 7.08%;
+    bottom: 91.67%;
+    color: aliceblue;
+}
+
+.search {
+    width: 665px;
+    height: 50px;
+    position: absolute;
+    left: 13.26%;
+    right: 66.11%;
+    top: 9.36%;
+    bottom: 89.78%;
+}
+
+.first {
+    width: 297px;
+}
+
+.second {
+    width: 297px;
+    margin-left: 360px;
+}
+
+.oval {
+    position: absolute;
+    left: 13.33%;
+    right: 85.28%;
+    top: 9.4%;
+    bottom: 90.25%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.oval_ {
+    position: absolute;
+    left: 38.19%;
+    right: 60.42%;
+    top: 9.4%;
+    bottom: 90.25%;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.oval_text p {
+    position: absolute;
+    height: 24px;
+    left: 16.32%;
+    right: 68.68%;
+    top: calc(50% - 24px/2 - 2319px);
+    color: white;
+}
+
+.oval_text_ p {
+    position: absolute;
+    height: 24px;
+    left: 41.18%;
+    right: 43.19%;
+    top: calc(50% - 24px/2 - 2319px);
+    color: white;
+}
+
+.hero_button p {
+    position: absolute;
+    height: 29px;
+    left: 65.62%;
+    right: 27.92%;
+    top: calc(50% - 29px/2 - 2306.5px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 171px;
+    height: 58px;
+    background-color: var(--color-font-light-blue);
+    position: absolute;
+    left: 62.92%;
+    right: 25.21%;
+    top: 9.27%;
+    bottom: 89.71%;
+    cursor: pointer;
+}

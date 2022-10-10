@@ -1,0 +1,163 @@
+:root {
+    --color-font-light-blue: #1B7DFF;
+    --color-font-bg: #0E1D28;
+    --color-font-gold: #9d8665;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 5736px;
+    margin: 0 auto;
+    padding: 0;
+    user-select: none;
+}
+
+li {
+    list-style: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+}
+
+h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    letter-spacing: 0.01rem;
+}
+
+h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    transition: 0.5s all ease-out;
+}
+
+h5:hover {
+    color: var(--color-font-gold);
+}
+
+p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    letter-spacing: 0.01px;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+
+}
+
+h6 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: var(--color-font-light-blue);
+    background: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+}
+
+button:hover {
+    color: var(--color-font-gold);
+}
+
+
+a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.input {
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 3px solid #FFFFFF;
+    width: 297px;
+    height: 22px;
+    margin-top: 31px;
+    color: #FFFFFF;
+}
+
+input[type=search]::-ms-clear { display: none; }
+
+
+input:-ms-clear {
+  display: none;
+}
+
+.arrow {
+    position: fixed;
+    margin-top: 2px;
+    margin-left: 26px;
+    width: 33px;
+    height: 33px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    filter: grayscale(0);
+}

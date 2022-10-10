@@ -1,0 +1,123 @@
+.inpired_section {
+    position: absolute;
+    width: 1264px;
+    height: 735px;
+    left: 6.11%;
+    right: 6.11%;
+    top: 26.59%;
+    bottom: 60.6%;
+}
+
+.image_container {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+.Mount_Fuji {
+    position: relative;
+    margin-left: -17px;
+    width: 619px;
+    height: 354px;
+    filter: grayscale(1);
+    transition: 1.3s all ease-out;
+}
+
+.Kyoto {
+    width: 655px;
+    height: 354px;
+    filter: grayscale(1);
+    transition: 1.3s all ease-out;
+}
+
+.Tokyo {
+    width: 415px;
+    height: 283px;
+    filter: grayscale(1);
+    transition: 1.3s all ease-out;
+}
+
+.Niigata {
+    width: 415px;
+    height: 283px;
+    filter: grayscale(1);
+    transition: 1.3s all ease-out;
+}
+
+.Sapporo {
+    width: 414px;
+    height: 283px;
+    filter: grayscale(1);
+    transition: 1.3s all ease-out;
+}
+
+.fuji_text {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 2.12%;
+    right: 75%;
+    top: 240px;
+}
+
+
+.kyoto_text {
+    position: absolute;
+    height: 60px;
+    left: 53.81%;
+    right: 38.96%;
+    top: 240px;
+}
+
+
+.image_text {
+    position: absolute;
+    height: 60px;
+    left: 36.23%;
+    right: 50.66%;
+    top: 550px;
+}
+
+.image_text_sapporo {
+    position: absolute;
+    height: 60px;
+    left: 71%;
+    right: 21.17%;
+    top: 550px;
+}
+
+.image_text_tokyo {
+    position: absolute;
+    height: 60px;
+    left: 3.33%;
+    right: 81.51%;
+    top: 550px;
+}
+
+.trip_button {
+    margin-left: 89.52%;
+    margin-top: -40px;
+
+
+}
+
+.Kyoto:hover {
+    filter: grayscale(0);
+}
+
+.Mount_Fuji:hover {
+    filter: grayscale(0);
+}
+
+.Tokyo:hover {
+    filter: grayscale(0);
+}
+
+.Niigata:hover {
+    filter: grayscale(0);
+}
+
+.Sapporo:hover {
+    filter: grayscale(0);
+}
