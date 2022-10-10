@@ -1,0 +1,324 @@
+$color: rgba(0, 162, 255, 0.3);
+$arrowColor: rgb(108, 0, 248, 0.3);
+
+.backspace {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 210%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.space {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 70%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 150%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.enter {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 140%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.capslock {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 170%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.shiftLeft {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 210%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.shiftRight {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 210%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+
+.altLeft {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.altRight {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.ctrlLeft {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.ctrlRight {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $arrowColor;
+  }
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $arrowColor;
+  }
+}
+
+.up {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $arrowColor;
+  }
+}
+
+.down {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  width: 10%;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.575);
+  overflow: hidden;
+  clear: both;
+  transition: 0.5s all ease;
+
+  &:hover {
+    background-color: $arrowColor;
+  }
+}
+
+.active {
+  color: cadetblue;
+}
+
+
