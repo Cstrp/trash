@@ -1,15 +1,15 @@
-// const path = require('path');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const ESLintPlugin = require('eslint-webpack-plugin');
-// const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-// const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
-// const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const fs = require('fs')
-// const ClearCachePlugin = require('./webpackclearcache');
+const ClearCachePlugin = require('./webpackclearcache');
 
-// const isDev = process.env.NODE_ENV === 'production';
+const isDev = process.env.NODE_ENV === 'production';
 
-// const fileName = ['index'];
+const fileName = ['index'];
 
 // const getExt = (filename, path = './src') => {
 //   let res = ''
@@ -19,17 +19,13 @@ const fs = require('fs')
 const { color, log } = require('console-log-colors')
 const { get } = require('http')
 
-const { red, green, cyan } = color
+const { red, green, cyan, blue } = color
 
-console.log(red("awdaw"))
-
-class Ext {
+class GetFile {
   constructor(filename) {
     this.filename = filename
-    this.file = ''
-    this.path = ''
-    this.dir = '../src/'
-    this.dirWithoutSrc = ''
+    this.path = './'
+    this.dir = './src/'
   }
 
   addSpaces(a) {
@@ -41,185 +37,189 @@ class Ext {
     return res
   }
 
-  checkDir(newPath = this.dir) {
+  get() {
+    this.check(this.dir)
+    return this.path
+  }
+
+  check(newPath = this.dir) {
     return fs.readdirSync(newPath).forEach(el => {
       const a = el.split('.')
 
       if (a[0] == this.filename && a[1] != 'html') {
-        console.log('==')
+        this.path += a.join('.')
+        this.file = a.join('.')
       }
       
       return a[0] == this.filename && a[1] != 'html' ? a.join('.') : (() => {
         if (fs.lstatSync(newPath + el).isFile()) {
-          console.log(`${this.addSpaces(this.dirWithoutSrc)} ${el} is file`)
+          console.log(blue(`${el} is file`))
           return `${el} is file`
         } else {
-          console.log(`${el} is dir`)
-          this.dirWithoutSrc += el + '/'
-          return this.checkDir(this.dir += (el + '/'))
+          console.log(cyan(`${el} is dir`))
+          this.path += el + '/'
+          return this.check(this.dir += (el + '/'))
         }
       })()
     })
   }
 }
 
-const getExt = new Ext('index')
-
-console.log(`${getExt.addSpaces('gg/g/g/g/g/g/g')}a`)
-
-getExt.checkDir()
+console.log(getter.get())
 
 // const ext = (filename, path = './src') => fs.readdirSync(path).map(el => el.split('.')[0] == filename && el.split('.')[1] != 'html' ? res = el.split('.')[1] : '').filter(el => el.length != 0)[0]
 
-// module.exports = {
-//   context: path.resolve(__dirname, '../src'),
-//   devtool: isDev ? 'source-map' : 'cheap-module-source-map',
-//   entry: fileName.reduce((config = {}, page) => {
-//     config[page] = `./${page}.js}`;
-//     return config;
-//   }, {}),
-//   output: {
-//     path: path.resolve(__dirname, '../dist'),
-//     filename: 'js/[name].[contenthash].js',
-//     assetModuleFilename: (path) => {
-//       const filePath = path.dirname.split('/').slice(1).join('/');
-//       return `${filePath}/[name][ext]`;
-//     },
-//     clean: {
-//       dry: false,
-//       keep: /\.git/,
-//     },
-//   },
-//   resolve: {
-//     alias: {
-//       '@': path.resolve(__dirname, '../src'),
-//       '@data': path.resolve(__dirname, '../src/data'),
-//       '@view': path.resolve(__dirname, '../src/view'),
-//     },
-//     extensions: ['.ts', '.js', '.json', '.css', '.scss'],
-//   },
-//   plugins: [].concat(
-//     fileName.map(
-//       (file) =>
-//         new HtmlWebpackPlugin({
-//           inject: 'head',
-//           template: `./${file}.html`,
-//           filename: `./${file}.html`,
-//           chunks: [file],
-//           minify: {
-//             html5: true,
-//             collapseWhitespace: true,
-//             removeComments: true,
-//           },
-//         }),
-//     ),
-//     [
-//       new FriendlyWebpackPlugin(),
-//       new ForkTsCheckerWebpackPlugin({
-//         async: false,
-//         typescript: {
-//           configFile: '../tsconfig.json',
-//         },
-//         devServer: true,
-//       }),
-//       new ESLintPlugin({
-//         extensions: ['.ts', '.js'],
-//         failOnError: false,
-//         exclude: 'node_modules',
-//       }),
-//     ].filter(Boolean),
-//   ),
-//   module: {
-//     rules: [
-//       {
-//         test: /\.(html)$/,
-//         use: ['html-loader'],
-//       },
-//       {
-//         test: /\.(s[ac]|c)ss$/i,
-//         use: [isDev ? MiniCssExtractPlugin.loader : 'style-loader', 'css-loader', 'postcss-loader'],
-//       },
-//       {
-//         test: /\.(ts?|js?)$/,
-//         use: [
-//           {
-//             loader: 'thread-loader',
-//             options: {
-//               workerParallelJobs: 2,
-//               cacheGroups: {
-//                 default: {
-//                   reuseExistingChunk: true,
-//                   chunks: 'all',
-//                   priority: -20,
-//                   name: 'default',
-//                   test: /\.(ts|js)$/,
-//                   enforce: true,
-//                   minSize: 0,
-//                   minChunks: 1,
-//                 },
-//               },
-//             },
-//           },
-//           'babel-loader',
-//         ],
-//         exclude: /node_modules/,
-//       },
-//       {
-//         test: /\.(png|jpe?g|gif|svg|webp|ico|avif|mp3)$/i,
-//         type: 'asset',
-//         generator: {
-//           filename: 'assets/img/[name][hash][ext][query]',
-//         },
-//         parser: {
-//           dataUrlCondition: {
-//             maxSize: 10 * 1024,
-//           },
-//         },
-//       },
-//       {
-//         test: /\.(woff2?|eot|ttf|otf)$/i,
-//         type: 'asset/resource',
-//         generator: {
-//           filename: 'assets/font/[name].[ext]',
-//         },
-//         parser: {
-//           dataUrlCondition: {
-//             maxSize: 10 * 1024,
-//           },
-//         },
-//       },
-//     ],
-//   },
-//   optimization: {
-//     splitChunks: {
-//       chunks: 'all',
-//       cacheGroups: {
-//         vendors: {
-//           test: /[\\/]node_modules[\\/]/,
-//           priority: -10,
-//           name: 'vendors',
-//           enforce: true,
-//           minSize: 0,
-//           minChunks: 1,
-//         },
-//       },
-//     },
-//     runtimeChunk: {
-//       name: 'runtime',
-//     },
-//   },
-//   cache: {
-//     type: 'filesystem',
-//     cacheDirectory: path.resolve(__dirname, '../cache'),
-//     hashAlgorithm: 'md5',
-//     buildDependencies: {
-//       config: [path.join(__dirname, '../webpack.config.js')],
-//     },
-//   },
-//   experiments: {
-//     asyncWebAssembly: true,
-//   },
-// };
+const getter = new GetFile('index')
+
+module.exports = {
+  context: path.resolve(__dirname, '../src'),
+  devtool: isDev ? 'source-map' : 'cheap-module-source-map',
+  entry: fileName.reduce((config = {}, page) => {
+    config[page] = getter.get();
+    return config;
+  }, {}),
+  output: {
+    path: path.resolve(__dirname, '../dist'),
+    filename: 'js/[name].[contenthash].js',
+    assetModuleFilename: (path) => {
+      const filePath = path.dirname.split('/').slice(1).join('/');
+      return `${filePath}/[name][ext]`;
+    },
+    clean: {
+      dry: false,
+      keep: /\.git/,
+    },
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, '../src'),
+      '@data': path.resolve(__dirname, '../src/data'),
+      '@view': path.resolve(__dirname, '../src/view'),
+    },
+    extensions: ['.ts', '.js', '.json', '.css', '.scss'],
+  },
+  plugins: [].concat(
+    fileName.map(
+      (file) =>
+        new HtmlWebpackPlugin({
+          inject: 'head',
+          template: `./${file}.html`,
+          filename: `./${file}.html`,
+          chunks: [file],
+          minify: {
+            html5: true,
+            collapseWhitespace: true,
+            removeComments: true,
+          },
+        }),
+    ),
+    [
+      new FriendlyWebpackPlugin(),
+      new ForkTsCheckerWebpackPlugin({
+        async: false,
+        typescript: {
+          configFile: '../tsconfig.json',
+        },
+        devServer: true,
+      }),
+      new ESLintPlugin({
+        extensions: ['.ts', '.js'],
+        failOnError: false,
+        exclude: 'node_modules',
+      }),
+    ].filter(Boolean),
+  ),
+  module: {
+    rules: [
+      {
+        test: /\.(html)$/,
+        use: ['html-loader'],
+      },
+      {
+        test: /\.(s[ac]|c)ss$/i,
+        use: [isDev ? MiniCssExtractPlugin.loader : 'style-loader', 'css-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.(ts?|js?)$/,
+        use: [
+          {
+            loader: 'thread-loader',
+            options: {
+              workerParallelJobs: 2,
+              cacheGroups: {
+                default: {
+                  reuseExistingChunk: true,
+                  chunks: 'all',
+                  priority: -20,
+                  name: 'default',
+                  test: /\.(ts|js)$/,
+                  enforce: true,
+                  minSize: 0,
+                  minChunks: 1,
+                },
+              },
+            },
+          },
+          'babel-loader',
+        ],
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|webp|ico|avif|mp3)$/i,
+        type: 'asset',
+        generator: {
+          filename: 'assets/img/[name][hash][ext][query]',
+        },
+        parser: {
+          dataUrlCondition: {
+            maxSize: 10 * 1024,
+          },
+        },
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/font/[name].[ext]',
+        },
+        parser: {
+          dataUrlCondition: {
+            maxSize: 10 * 1024,
+          },
+        },
+      },
+    ],
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        vendors: {
+          test: /[\\/]node_modules[\\/]/,
+          priority: -10,
+          name: 'vendors',
+          enforce: true,
+          minSize: 0,
+          minChunks: 1,
+        },
+      },
+    },
+    runtimeChunk: {
+      name: 'runtime',
+    },
+  },
+  cache: {
+    type: 'filesystem',
+    cacheDirectory: path.resolve(__dirname, '../cache'),
+    hashAlgorithm: 'md5',
+    buildDependencies: {
+      config: [path.join(__dirname, '../webpack.config.js')],
+    },
+  },
+  experiments: {
+    asyncWebAssembly: true,
+  },
+};
 
 
 const base = () => {
