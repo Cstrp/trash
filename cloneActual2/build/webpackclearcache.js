@@ -1,5 +1,7 @@
 const fs = require('fs')
 
+const { colors, log } = require('console-log-colors')
+
 class ClearCachePlugin {
     constructor({silent, dirname = 'cache', optimize}) {
         this.isSilent = silent

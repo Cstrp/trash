@@ -64,9 +64,6 @@ class GetFile {
     })
   }
 }
-
-console.log(getter.get())
-
 // const ext = (filename, path = './src') => fs.readdirSync(path).map(el => el.split('.')[0] == filename && el.split('.')[1] != 'html' ? res = el.split('.')[1] : '').filter(el => el.length != 0)[0]
 
 const getter = new GetFile('index')
