@@ -1,20 +1,21 @@
-console.log('asdasdads');
+import './index.scss';
 
 class App {
-    x: number
-    y: number
+  x: number;
 
-    constructor(x: number ,y: number) {
-        this.x = x
-        this.y = y
-    }
+  y: number;
 
-    calculate() {
-        return this.x + this.y
-    }
+  constructor(x: number, y: number) {
+    this.x = x;
+    this.y = y;
+  }
+
+  calculate() {
+    return this.x * this.y;
+  }
 }
 
+const calculator = new App(50, 50);
 
-const calculator = new App(50, 50)
-
-console.log(calculator.calculate())
+console.log(calculator.calculate());
+console.log('asdasdads');

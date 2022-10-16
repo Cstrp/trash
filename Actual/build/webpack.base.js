@@ -5,23 +5,22 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
-const isDev = process.env.NODE_ENV === 'production';
-
 const fileName = ['index'];
+const isProd = process.env.NODE_ENV === 'production';
+const styleHandler = isProd ? MiniCssExtractPlugin.loader : 'style-loader';
 
 module.exports = {
   context: path.resolve(__dirname, '../src'),
-  devtool: isDev ? 'source-map' : 'cheap-module-source-map',
-  entry: fileName.reduce((config = {}, page) => {
-    config[page] = `./${page}.ts`;
+  entry: fileName.reduce((config = {}, file) => {
+    config[file] = `./${file}.ts`;
     return config;
   }, {}),
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: 'js/[name].[contenthash].js',
-    assetModuleFilename: (path) => {
-      const filePath = path.dirname.split('/').slice(1).join('/');
-      return `${filePath}/[name][ext]`;
+    filename: (pathToFile) => {
+      return pathToFile.chunk.name === 'js/[name].[contenthash]'
+        ? 'js/[name].[contenthash].js'
+        : 'js/[name].[contenthash].js';
     },
     clean: {
       dry: false,
@@ -34,7 +33,7 @@ module.exports = {
       '@data': path.resolve(__dirname, '../src/data'),
       '@view': path.resolve(__dirname, '../src/view'),
     },
-    extensions: ['.ts', '.js', '.json', '.css', '.scss'],
+    extensions: ['.ts', '.js', '.json', '.scss'],
   },
   plugins: [].concat(
     fileName.map(
@@ -48,6 +47,7 @@ module.exports = {
             html5: true,
             collapseWhitespace: true,
             removeComments: true,
+            removeTagWhitespace: true,
           },
         }),
     ),
@@ -75,7 +75,7 @@ module.exports = {
       },
       {
         test: /\.(s[ac]|c)ss$/i,
-        use: [isDev ? MiniCssExtractPlugin.loader : 'style-loader', 'css-loader', 'postcss-loader'],
+        use: [styleHandler, 'css-loader', 'postcss-loader', 'sass-loader'],
       },
       {
         test: /\.(ts?|js?)$/,
@@ -93,7 +93,7 @@ module.exports = {
                   test: /\.(ts|js)$/,
                   enforce: true,
                   minSize: 0,
-                  minChunks: 1,
+                  minChunks: 2,
                 },
               },
             },
@@ -129,6 +129,8 @@ module.exports = {
     ],
   },
   optimization: {
+    moduleIds: 'deterministic',
+    runtimeChunk: 'single',
     splitChunks: {
       chunks: 'all',
       cacheGroups: {
@@ -137,6 +139,7 @@ module.exports = {
           priority: -10,
           name: 'vendors',
           enforce: true,
+          chunks: 'all',
           minSize: 0,
           minChunks: 1,
         },
@@ -159,7 +162,6 @@ module.exports = {
   },
 };
 
-
 const base = () => {
-  return 'переписаные плагины'
-}
+  return 'переписаные плагины';
+};
