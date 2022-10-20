@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>{{title}}</h1>
+  <app-post-form (post)="updatePosts($event)">
+  </app-post-form>
+
+  <hr />
+
+  <app-post *ngFor='let post of posts' [post]="post" (rm)="removePost($event)">
+    <div #info>
+      <small *ngIf="post.text.length > 10; else short">Ok</small>
+      <ng-template #short>Is not ok</ng-template>
+    </div>
+  </app-post>
+</div>

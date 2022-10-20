@@ -1,0 +1,10 @@
+<div>
+  <form [formGroup]="form">
+    <input #ttl type="text" class="form-control" placeholder="Title..." formControlName="title">
+    <input type="text" class="form-control" placeholder="Text..." formControlName="text">
+  </form>
+
+
+  <button class="btn" (click)="addPost()">Add post</button>
+  <button class='btn' (click)="focus()">TargetForTitle</button>
+</div>
