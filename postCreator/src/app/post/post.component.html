@@ -1,13 +1,10 @@
 <div class='card'>
   <h2>{{post.title}}</h2>
-  <p>{{post.text}}</p>
-
-
-
+  <p appStyles>
+    {{post.text}}</p>
+  <!-- [dStyles]="{border: '3px solid violet', fontWeight: 'bold', borderRadius: '5px', padding: '5px', transition: '2s'}" -->
   <ng-content></ng-content>
   <!-- передача херни из вне -->
-
-
 
   <button class='btn' (click)="removePost()">&times;</button>
 </div>
