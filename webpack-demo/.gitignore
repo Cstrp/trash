@@ -1,0 +1,7 @@
+node_modules/
+dist/
+i18n-build/
+static/
+records.json
+stats.json
+
