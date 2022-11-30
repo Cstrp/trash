@@ -6,8 +6,6 @@ const FriendlyWebpackPlugin = require('@soda/friendly-errors-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 const fileName = ['index'];
-const isProd = process.env.NODE_ENV === 'production';
-const styleHandler = isProd ? MiniCssExtractPlugin.loader : 'style-loader';
 
 module.exports = {
   context: path.resolve(__dirname, '../src'),
@@ -75,8 +73,8 @@ module.exports = {
       },
       {
         test: /\.(s[ac]|c)ss$/i,
-        use: [styleHandler, 'css-loader', 'postcss-loader', 'sass-loader'],
-      },
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
+      },  
       {
         test: /\.(ts?|js?)$/,
         use: [
