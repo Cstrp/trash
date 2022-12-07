@@ -51,6 +51,7 @@ module.exports = {
     ),
     [
       new FriendlyWebpackPlugin(),
+      new MiniCssExtractPlugin(),
       new ForkTsCheckerWebpackPlugin({
         async: false,
         typescript: {
