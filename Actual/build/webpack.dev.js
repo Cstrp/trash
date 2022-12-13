@@ -17,7 +17,7 @@ module.exports = {
     allowedHosts: 'auto',
     open: true,
     compress: true,
-    port: 4321,
+    port: 4322,
     hot: false,
     proxy: {
       context: defaultUrls.map((itUrl) => `/${itUrl}`),
