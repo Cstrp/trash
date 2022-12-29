@@ -10,9 +10,17 @@ const fileName = ['index'];
 module.exports = {
   context: path.resolve(__dirname, '../src'),
   entry: fileName.reduce((config = {}, file) => {
-    config[file] = `./${file}.ts`;
+    config[file] = `./${file}`;
     return config;
   }, {}),
+    resolve: {
+    alias: {
+      '@': path.resolve(__dirname, '../src'),
+      '@data': path.resolve(__dirname, '../src/data'),
+      '@view': path.resolve(__dirname, '../src/view'),
+    },
+    extensions: ['.ts', '.js'],
+  },
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: (pathToFile) => {
@@ -24,14 +32,6 @@ module.exports = {
       dry: false,
       keep: /\.git/,
     },
-  },
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, '../src'),
-      '@data': path.resolve(__dirname, '../src/data'),
-      '@view': path.resolve(__dirname, '../src/view'),
-    },
-    extensions: ['.ts', '.js', '.json', '.scss'],
   },
   plugins: [].concat(
     fileName.map(
