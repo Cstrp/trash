@@ -1,0 +1,32 @@
+:root {
+	--black-color: #3B434E;
+	--white-color: white;
+	--primary-color: #7653FC;
+	--warn-color: #FC836D;
+	--green-bold: #1DC37E;
+	--green-color: #C8F8E4;
+	--font-family: "Noto Sans KR", sans-serif;
+	--background-color: #F5F6F8;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+	color: var(--black-color);
+
+	background-color: var(--background-color);
+
+	font-family: var(--font-family);
+}
+
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+* {
+	box-sizing: border-box;
+}
