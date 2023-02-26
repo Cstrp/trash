@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import moment from 'moment/moment'
-import { generate } from './GenerateCalendar'
-import { Week } from './Week'
-import { MomentFormat } from './MomentFormat'
-import { buttonStyle, calendarStyle, dayStyle, headerStyle, weekStyle } from './CalendarStyles'
+import { buttonStyle, calendarStyle, changeMonth, generate, headerStyle, MomentFormat, selectedDay, styles, Week, weekStyle } from '.'
+import cn from 'classnames'
 
 export const Calendar = (): JSX.Element => {
   const [date, setDate] = useState(moment())
@@ -14,29 +12,22 @@ export const Calendar = (): JSX.Element => {
     setCalendar(generate(date))
   }, [date])
 
-  const changeMonth = (month: number) => {
-    setDate((prevDate) => prevDate.clone().add(month, 'month'))
+  const handleChangeMonth = (month: number) => {
+    changeMonth(month, date, setDate, setCalendar)
   }
 
-  const select = (item: moment.Moment): void => {
-    console.log('select', selectedDate)
-    setSelectedDate(item)
+  const handleSelection = (item: moment.Moment) => {
+    selectedDay(item, setCalendar, setSelectedDate)
   }
 
   return (
-    <div style={calendarStyle}>
+    <div className={cn(`${calendarStyle}`, 'container mx-auto border-2 m-5 p-5 rounded')}>
       <div style={headerStyle}>
-        <button
-          style={buttonStyle}
-          onClick={() => changeMonth(-1)}
-        >
+        <button style={buttonStyle} onClick={() => handleChangeMonth(-1)}>
           {'<'}
         </button>
-        <h2>{MomentFormat(date)}</h2>
-        <button
-          style={buttonStyle}
-          onClick={() => changeMonth(1)}
-        >
+        <h2>{MomentFormat(date, 'MMMM YYYY')}</h2>
+        <button style={buttonStyle} onClick={() => handleChangeMonth(1)}>
           {'>'}
         </button>
       </div>
@@ -45,16 +36,9 @@ export const Calendar = (): JSX.Element => {
           {week.days.map((day, j) => (
             <div
               key={j}
-              style={{
-                ...dayStyle,
-                borderLeft: j === 0 ? 'none' : '1px solid #ccc',
-                borderTop: i === 0 && j === 0 ? 'none' : '1px solid #ccc',
-                backgroundColor: day.selected ? '#ccc' : '#fff',
-                color: day.selected ? '#fff' : undefined,
-                opacity: day.disabled ? 0.5 : undefined,
-                cursor: day.disabled ? 'default' : 'pointer'
-              }}
-              onClick={() => !day.disabled && select(selectedDate)}
+              style={styles(j, i, selectedDate, day)}
+              className={`w-12 h-12 flex items-center justify-center rounded-full shadow-md ${day.active ? 'bg-teal-500 text-black' : 'bg-green-500 hover:bg-green-600'}`}
+              onClick={() => !day.disabled && handleSelection(day.value)}
             >
               {day.value.format('DD')}
             </div>

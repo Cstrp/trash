@@ -4,7 +4,7 @@ export interface Week {
   days: Day[];
 }
 
-export const week: string[] = [
+export const dayOfWeek: string[] = [
   'Sunday',
   'Monday',
   'Tuesday',
