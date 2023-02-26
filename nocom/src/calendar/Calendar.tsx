@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import moment from 'moment/moment'
 import { buttonStyle, calendarStyle, changeMonth, generate, headerStyle, MomentFormat, selectedDay, styles, Week, weekStyle } from '.'
-import cn from 'classnames'
 
 export const Calendar = (): JSX.Element => {
   const [date, setDate] = useState(moment())
@@ -21,7 +20,7 @@ export const Calendar = (): JSX.Element => {
   }
 
   return (
-    <div className={cn(`${calendarStyle}`, 'container mx-auto border-2 m-5 p-5 rounded')}>
+    <div style={calendarStyle} className={"container mx-auto border-2 m-5 p-5 rounded"}>
       <div style={headerStyle}>
         <button style={buttonStyle} onClick={() => handleChangeMonth(-1)}>
           {'<'}
@@ -37,7 +36,6 @@ export const Calendar = (): JSX.Element => {
             <div
               key={j}
               style={styles(j, i, selectedDate, day)}
-              className={`w-12 h-12 flex items-center justify-center rounded-full shadow-md ${day.active ? 'bg-teal-500 text-black' : 'bg-green-500 hover:bg-green-600'}`}
               onClick={() => !day.disabled && handleSelection(day.value)}
             >
               {day.value.format('DD')}
