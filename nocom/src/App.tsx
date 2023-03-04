@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import { Calendar } from './calendar'
+import { Calendar } from './Components'
 
 const App = (): JSX.Element => {
   return (
