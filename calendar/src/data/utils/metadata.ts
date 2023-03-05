@@ -1,9 +1,9 @@
-import { TabTypes } from "../enums";
-import { getYear } from "./GetYear";
-import { today } from "./Today";
-import { getMonth } from "./GetMonth";
-import { getWeek } from "./GetWeek";
-import { getDay } from "./GetDay";
+import { TabTypes } from '../enums';
+import { getYear } from './GetYear';
+import { today } from './Today';
+import { getMonth } from './GetMonth';
+import { getWeek } from './GetWeek';
+import { getDay } from './GetDay';
 
 export const metadata = (tab: TabTypes) => {
   switch (tab) {
@@ -16,6 +16,6 @@ export const metadata = (tab: TabTypes) => {
     case TabTypes.DAY:
       return getDay(today);
     default:
-      return "Hello world";
+      return null;
   }
 };
