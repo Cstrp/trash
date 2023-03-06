@@ -1,15 +1,15 @@
 import React from 'react';
-import { Props, TabView } from '../../../data/types';
-import { CalendarTabList } from '../CalendarTabList/CalendarTabList';
+import { CalendarTabsProps } from '../../../data/types';
+import { Tab, Tabs } from '@mui/material';
 import { tabs } from './Tabs';
-import { useCalendar } from '../../../data/hooks';
+import { activeStyles, styles } from '../../styles';
 
-export const withCalendarTabs = (Component: React.FC<Props & { tabs: TabView[] }>) => {
-  return () => {
-    const { selectedTab, handleTabChange } = useCalendar();
-
-    return <Component tabs={tabs} selectedTab={selectedTab} handleTabChange={handleTabChange} />;
-  };
+export const CalendarTabs = ({ selectedTab, handleTabChange }: CalendarTabsProps) => {
+  return (
+    <Tabs value={selectedTab} onChange={handleTabChange} sx={{ height: '100px' }}>
+      {tabs.map((tab) => (
+        <Tab key={tab.type} label={tab.label} value={tab.type} sx={selectedTab === tab.type ? activeStyles : styles} />
+      ))}
+    </Tabs>
+  );
 };
-
-export const CalendarTabs = withCalendarTabs(CalendarTabList);

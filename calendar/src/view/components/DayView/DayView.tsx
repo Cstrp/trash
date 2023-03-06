@@ -1,21 +1,21 @@
-import { Box, Typography } from "@mui/material";
-import { getDay, momentFormat, today } from "../../../data/utils";
+import { Box } from '@mui/material';
+import { DayViewProps } from '../../../data/types';
+import { DayViewHeader, DayViewIntervals } from '..';
 
-export const DayView = () => {
-  const day = getDay(today);
-
+export const DayView = ({ calendarData }: DayViewProps) => {
   return (
     <Box
-      sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      sx={{
+        display: 'flex',
+        maxHeight: '788px',
+        margin: '0 auto',
+        overflowY: 'scroll',
+        scrollbarWidth: 'none',
+        flexDirection: 'column',
+      }}
     >
-      <Typography variant="h5" letterSpacing={1}>
-        {day.date}
-      </Typography>
-      {day.intervals.map((interval, idx) => (
-        <Typography key={idx} letterSpacing={1}>
-          {momentFormat(interval.start, "HH:mm")}
-        </Typography>
-      ))}
+      <DayViewHeader date={calendarData.date} />
+      <DayViewIntervals intervals={calendarData.intervals} />
     </Box>
   );
 };

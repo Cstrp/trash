@@ -1,7 +1,7 @@
-import moment from "moment";
-import { Week } from ".";
+import { Week } from '.';
+import moment from 'moment';
 
 export interface Month {
-  month: moment.Moment;
+  month?: moment.Moment;
   weeks: Week[];
 }

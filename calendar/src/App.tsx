@@ -14,10 +14,9 @@ export const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Container sx={{ background: 'background.default' }} maxWidth={'xl'}>
+      <Container sx={{ background: 'background.default' }}>
         <Switch checked={themeMode === 'dark'} onChange={handleThemeChanger} />
         <Calendar />
-        {/*<DayView />*/}
       </Container>
     </ThemeProvider>
   );

@@ -3,13 +3,15 @@ export * from './Calendar/Calendar';
 
 // Tab panel
 export * from './CalendarTabs/CalendarTabs';
-export * from './CalendarTabList/CalendarTabList';
 
 // Day
 export * from './DayView/DayView';
+export * from './DayViewHeader/DayViewHeader';
+export * from './DayViewIntervals/DayViewIntervals';
 
 // Week
 export * from './WeekView/WeekView';
+export * from './WeekViewHeader/WeekViewHeader';
 
 // Month
 export * from './MonthView/MonthView';

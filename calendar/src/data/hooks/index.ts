@@ -1,1 +1,1 @@
-export * from './useCalendar';
+export const a = '';
