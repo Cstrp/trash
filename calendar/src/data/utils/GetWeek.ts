@@ -24,13 +24,5 @@ export const getWeek = (date: moment.Moment) => {
     currentDate = currentDate.clone().add(1, 'day');
   }
 
-  const todayIdx = days.findIndex((day) => day.selected);
-
-  if (todayIdx === -1) {
-    const today = days[todayIdx];
-    days.splice(todayIdx, 1);
-    days.unshift(today);
-  }
-
   return { days, intervals };
 };

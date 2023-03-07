@@ -10,7 +10,6 @@ export const Calendar = (): JSX.Element => {
     setQueryParams({ tab: newValue.toString() });
     setSelectedTab(newValue);
   };
-
   const calendarData = useMemo(() => getCalendarData(selectedTab), [selectedTab]);
 
   return (

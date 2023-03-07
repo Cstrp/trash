@@ -1,8 +1,14 @@
+// header
+export * from './Header/Header';
+
 // Calendar
 export * from './Calendar/Calendar';
 
 // Tab panel
 export * from './CalendarTabs/CalendarTabs';
+
+// LeftSidebar
+export * from './LeftSidebar/LeftSidebar';
 
 // Day
 export * from './DayView/DayView';
@@ -21,5 +27,7 @@ export * from './MonthViewGrid/MonthViewGrid';
 // Year
 export * from './YearView/YearView';
 
-// Notifications messages
+// Other
 export * from './CustomSnackBar/CustomSnackBar';
+export * from './LogoutButton/LogoutButton';
+export * from './PreLoader/PreLoader';

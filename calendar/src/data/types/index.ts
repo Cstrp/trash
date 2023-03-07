@@ -8,7 +8,6 @@ export * from './Year';
 export * from './CalendarData';
 
 // Options
-
 export * from './Options/TruncateOptions';
 
 // Properties
@@ -21,3 +20,6 @@ export * from './Props/CalendarTabsProps';
 export * from './Props/DayViewProps';
 export * from './Props/DayViewIntervalsProps';
 export * from './Props/DayViewHeaderProps';
+
+// Other
+export * from './SidebarLinks';

@@ -1,13 +1,17 @@
 import { WeekViewProps } from '../../../data/types';
-import { Box, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from '@mui/material';
-import { WeekViewHeader } from '../WeekViewHeader/WeekViewHeader';
+import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material';
 
 export const WeekView = ({ calendarData }: WeekViewProps) => {
   return (
     <>
-      <WeekViewHeader days={calendarData.days} />
-      <TableContainer sx={{ position: 'relative', marginLeft: '-200px', width: '1490px', maxHeight: '788px' }}>
+      <TableContainer sx={{ position: 'relative', overflowX: 'hidden' }}>
         <Table sx={{ tableLayout: 'fixed' }}>
+          <TableHead>
+            {}
+            <TableRow>
+              <TableCell></TableCell>
+            </TableRow>
+          </TableHead>
           <TableBody>
             {calendarData?.intervals?.map((interval, idx) => (
               <TableRow key={idx}>
