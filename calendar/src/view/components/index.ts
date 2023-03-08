@@ -35,3 +35,4 @@ export * from './ModalWindow/ModalWindow';
 export * from './TabButton/TabButton';
 export * from './LogoutButton/LogoutButton';
 export * from './PreLoader/PreLoader';
+export * from './ErrorBoundary/ErrorBoundary';

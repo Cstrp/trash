@@ -22,7 +22,7 @@ export const CalendarTabs = ({ selectedTab, handleTabChange, handleTabReset }: C
       {selectedTab === TabTypes.MONTH && 'Month'}
       {selectedTab === TabTypes.YEAR && 'Year'}
 
-      <Tabs value={selectedTab} onChange={handleTabChange}>
+      <Tabs value={selectedTab} onChange={handleTabChange} TabIndicatorProps={{ style: { display: 'none' } }}>
         {tabs.map((tab) => (
           <Tab
             key={tab.type}

@@ -1,2 +1,2 @@
 export * from './TabTypes';
-export * from './RoutePaths';
+export * from './RouterPaths';

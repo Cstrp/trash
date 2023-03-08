@@ -1,9 +1,7 @@
-import { RoutePaths } from '../enums';
-import { OverridableComponent } from '@mui/material/OverridableComponent';
-import { SvgIconTypeMap } from '@mui/material';
+import { RouterPaths } from '../enums';
 
 export interface SidebarLinks {
-  link?: RoutePaths;
+  link: RouterPaths;
   text: string;
-  icon: OverridableComponent<SvgIconTypeMap> | string;
+  icon: string;
 }

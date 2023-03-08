@@ -1,22 +1,23 @@
-import { CalendarToday, NotificationsNone } from '@mui/icons-material';
 import pill from './icon/pill.svg';
-import { RoutePaths } from '../../../data/enums';
+import schedule from './icon/schedule.svg';
+import alarm from './icon/alarm.svg';
+import { RouterPaths } from '../../../data/enums';
 import { SidebarLinks } from '../../../data/types';
 
 export const sidebarLinks: SidebarLinks[] = [
   {
-    link: RoutePaths.DIARY,
+    link: RouterPaths.DIARY,
     text: 'Мой дневник',
-    icon: NotificationsNone,
+    icon: alarm,
   },
   {
-    link: RoutePaths.COURSES,
+    link: RouterPaths.COURSES,
     text: 'Мои курсы',
     icon: pill,
   },
   {
-    link: RoutePaths.SCHEDULE,
+    link: RouterPaths.SCHEDULE,
     text: 'Мой график',
-    icon: CalendarToday,
+    icon: schedule,
   },
 ];
