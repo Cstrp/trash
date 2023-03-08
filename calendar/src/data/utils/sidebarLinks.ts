@@ -1,6 +1,6 @@
 import { RoutePaths } from '../enums';
 import { CalendarToday, NotificationsNone } from '@mui/icons-material';
-import pill from '../../view/components/LeftSidebar/icon/pill.svg';
+import pill from '../../view/components/Sidebar/icon/pill.svg';
 import { SidebarLinks } from '../types';
 
 export const sidebarLinks: SidebarLinks[] = [

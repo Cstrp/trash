@@ -1,6 +1,8 @@
 import { createTheme } from '@mui/material';
+import { breakpoints } from './breakpoints';
 
 export const lightTheme = createTheme({
+  ...breakpoints,
   palette: {
     mode: 'light',
     primary: {

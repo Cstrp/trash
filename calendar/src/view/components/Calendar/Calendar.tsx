@@ -1,28 +1,24 @@
-import React, { SetStateAction, SyntheticEvent, useMemo, useState } from 'react';
-import { CalendarTabs, DayView, MonthView, WeekView, YearView } from '..';
-import { getCalendarData, isDayView, isMonthView, isWeekView, isYearView, setQueryParams } from '../../../data/utils';
+import React from 'react';
+import { CalendarTabs, Day, MonthView, Week, Year } from '..';
+import { isDayView, isMonthView, isWeekView, isYearView } from '../../../data/utils';
 import { TabTypes } from '../../../data/enums';
+import { Container } from '@mui/material';
+import { useCalendar } from '../../../data/hooks/useCalendar';
 
 export const Calendar = (): JSX.Element => {
-  const [selectedTab, setSelectedTab] = useState<TabTypes>(TabTypes.MONTH);
-
-  const handleTabChange = (_: SyntheticEvent, newValue: SetStateAction<TabTypes>) => {
-    setQueryParams({ tab: newValue.toString() });
-    setSelectedTab(newValue);
-  };
-  const calendarData = useMemo(() => getCalendarData(selectedTab), [selectedTab]);
+  const { selectedTab, handleTabChange, handleDateReset, calendarData } = useCalendar();
 
   return (
-    <>
-      <CalendarTabs selectedTab={selectedTab} handleTabChange={handleTabChange} />
+    <Container sx={{ maxWidth: '1490px', m: 0 }}>
+      <CalendarTabs selectedTab={selectedTab} handleTabChange={handleTabChange} handleTabReset={handleDateReset} />
       {calendarData && (
         <>
-          {selectedTab === TabTypes.DAY && isDayView(calendarData) && <DayView calendarData={calendarData} />}
-          {selectedTab === TabTypes.WEEK && isWeekView(calendarData) && <WeekView calendarData={calendarData} />}
+          {selectedTab === TabTypes.DAY && isDayView(calendarData) && <Day calendarData={calendarData} />}
+          {selectedTab === TabTypes.WEEK && isWeekView(calendarData) && <Week calendarData={calendarData} />}
           {selectedTab === TabTypes.MONTH && isMonthView(calendarData) && <MonthView calendarData={calendarData} />}
-          {selectedTab === TabTypes.YEAR && isYearView(calendarData) && <YearView calendarData={calendarData} />}
+          {selectedTab === TabTypes.YEAR && isYearView(calendarData) && <Year calendarData={calendarData} />}
         </>
       )}
-    </>
+    </Container>
   );
 };

@@ -1,7 +1,7 @@
 import { PreLoader } from '..';
 import { YearViewProps } from '../../../data/types';
 
-export const YearView = ({ calendarData }: YearViewProps) => {
+export const Year = ({ calendarData }: YearViewProps) => {
   if (!calendarData) {
     return <PreLoader />;
   }

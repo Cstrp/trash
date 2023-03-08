@@ -1,5 +1,6 @@
 // header
 export * from './Header/Header';
+export * from './DropdownMenu/DropdownMenu';
 
 // Calendar
 export * from './Calendar/Calendar';
@@ -7,27 +8,30 @@ export * from './Calendar/Calendar';
 // Tab panel
 export * from './CalendarTabs/CalendarTabs';
 
-// LeftSidebar
-export * from './LeftSidebar/LeftSidebar';
+// Sidebar
+export * from './Sidebar/Sidebar';
 
 // Day
-export * from './DayView/DayView';
-export * from './DayViewHeader/DayViewHeader';
-export * from './DayViewIntervals/DayViewIntervals';
+export * from './Day/Day';
+export * from './DayHeader/DayHeader';
+export * from './DayIntervals/DayIntervals';
 
 // Week
-export * from './WeekView/WeekView';
-export * from './WeekViewHeader/WeekViewHeader';
+export * from './Week/Week';
+export * from './WeekHeader/WeekHeader';
+export * from './WeekContent/WeekContent';
 
 // Month
 export * from './MonthView/MonthView';
-export * from './MonthViewHeader/MonthViewHeader';
-export * from './MonthViewGrid/MonthViewGrid';
+export * from './MonthHeader/MonthViewHeader';
+export * from './MonthContent/MonthGrid';
 
 // Year
-export * from './YearView/YearView';
+export * from './Year/Year';
 
 // Other
 export * from './CustomSnackBar/CustomSnackBar';
+export * from './ModalWindow/ModalWindow';
+export * from './TabButton/TabButton';
 export * from './LogoutButton/LogoutButton';
 export * from './PreLoader/PreLoader';

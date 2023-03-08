@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import { momentFormat } from '../../../data/utils';
 import { DayViewHeaderProps } from 'src/data/types';
 
-export const DayViewHeader = ({ date }: DayViewHeaderProps): JSX.Element => {
+export const DayHeader = ({ date }: DayViewHeaderProps): JSX.Element => {
   return (
     <Box
       sx={{
