@@ -1,8 +1,0 @@
-import moment from "moment";
-
-export interface Day {
-  day: moment.Moment;
-  active?: boolean;
-  disabled?: boolean;
-  selected?: boolean;
-}

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12bdd159-9447-4e76-9dd1-5d3e2d603928" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/calendar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppRouter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/enums/RouterPaths.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/enums/TabTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/enums/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hooks/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hooks/useCalendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/CalendarData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Day.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Month.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Options.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Options/TruncateOptions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/CalendarTabsProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/DayViewHeaderProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/DayViewIntervalsProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/DayViewProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/MonthViewProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/WeekViewProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Props/YearViewProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/SidebarLinks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/TabView.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/TimeIntervals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Week.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/Year.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/ChangeMonth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/GetDay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/GetMonth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/GetWeek.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/GetYear.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/MomentFormat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/QueryParams/GetQueryParams.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/QueryParams/SetQueryParams.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/SelectedDay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/Today.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/Truncate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/TypeChecking/isDayView.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/TypeChecking/isMonthView.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/TypeChecking/isWeekView.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/TypeChecking/isYearView.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/getCalendarData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/utils/isSelectedDay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Calendar/Calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Calendar/calendar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/CalendarTabs/CalendarTabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/CalendarTabs/Tabs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/CustomSnackBar/CustomSnackBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/CustomSnackBar/CustomSnackBarProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Day/Day.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/DayHeader/DayHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/DayIntervals/DayIntervals.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/DayIntervals/dayintervals.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/DropdownMenu/CustomMenu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/DropdownMenu/DropdownMenu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/ErrorBoundary/ErrorBoundary.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Header/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Header/header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/LogoutButton/LogoutButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/ModalWindow/ModalWindow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/ModalWindow/modalWindowProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MonthContent/MonthGrid.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MonthContent/MonthGridProps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MonthContent/monthViewGrid.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MonthHeader/MonthViewHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MonthHeader/monthViewHeader.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/MonthView/MonthView.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/PreLoader/PreLoader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Sidebar/Sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Sidebar/icon/alarm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Sidebar/icon/pill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Sidebar/icon/schedule.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Sidebar/sidebar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Sidebar/sidebarLinks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/TabButton/TabButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Week/Week.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/WeekContent/WeekContent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/WeekHeader/WeekHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/Year/Year.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/pages/Courses/Courses.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/pages/Diary/Diary.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/pages/Home/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/pages/Schedule/Schedule.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/pages/Settings/Settings.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/pages/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/styles/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/styles/sx/tabStyles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/styles/theme/breakpoints.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/styles/theme/darkTheme.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/styles/theme/lightTheme.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2MQXcgHIv6XXFPEGwToPZYGGvvG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.14.0",
+    "javascript.nodejs.core.library.typings.version": "18.14.0",
+    "last_opened_file_path": "/home/hie/Documents/trash/calendar/src/view/components/common",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "/home/hie/Documents/trash/calendar/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/hie/.local/share/nvm/v18.14.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "/home/hie/Documents/trash/calendar/node_modules/prettier",
+    "settings.editor.selected.configurable": "org.intellij.sdk.settings.AppSettingsConfigurable",
+    "ts.external.directory.path": "/home/hie/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8617.44/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/view/components/common" />
+      <recent name="$PROJECT_DIR$/src/view/components/CoursesPage" />
+      <recent name="$PROJECT_DIR$/src/view/components/DiaryPage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data/utils/Validators" />
+      <recent name="$PROJECT_DIR$/src/view/components/common" />
+      <recent name="$PROJECT_DIR$/src/view/components/HomePage/HomeContent/img" />
+      <recent name="$PROJECT_DIR$/src/view/components/LeftSidebar" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12bdd159-9447-4e76-9dd1-5d3e2d603928" name="Changes" comment="" />
+      <created>1677700861069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677700861069</updated>
+      <workItem from="1677700862152" duration="7306000" />
+      <workItem from="1677758905614" duration="12031000" />
+      <workItem from="1677773464776" duration="1457000" />
+      <workItem from="1677776043170" duration="14660000" />
+      <workItem from="1677793781259" duration="2778000" />
+      <workItem from="1677835153159" duration="3000" />
+      <workItem from="1677866111409" duration="1707000" />
+      <workItem from="1677871525701" duration="6176000" />
+      <workItem from="1677921105560" duration="3756000" />
+      <workItem from="1677927585989" duration="8037000" />
+      <workItem from="1677938290635" duration="232000" />
+      <workItem from="1677938648809" duration="2589000" />
+      <workItem from="1677961827493" duration="2151000" />
+      <workItem from="1678007323488" duration="1675000" />
+      <workItem from="1678021698348" duration="3329000" />
+      <workItem from="1678025958479" duration="22000" />
+      <workItem from="1678027953762" duration="451000" />
+      <workItem from="1678045353784" duration="10288000" />
+      <workItem from="1678088169591" duration="6641000" />
+      <workItem from="1678101998948" duration="10556000" />
+      <workItem from="1678117248554" duration="4329000" />
+      <workItem from="1678126026299" duration="1259000" />
+      <workItem from="1678128569192" duration="4815000" />
+      <workItem from="1678189156841" duration="7388000" />
+      <workItem from="1678199014970" duration="5845000" />
+      <workItem from="1678205264186" duration="4133000" />
+      <workItem from="1678213613787" duration="785000" />
+      <workItem from="1678217925187" duration="11567000" />
+      <workItem from="1678265935221" duration="3807000" />
+      <workItem from="1678270636900" duration="569000" />
+      <workItem from="1678277169453" duration="3903000" />
+      <workItem from="1678281374569" duration="11125000" />
+      <workItem from="1678292706353" duration="6228000" />
+      <workItem from="1678305225783" duration="62000" />
+      <workItem from="1678305294954" duration="10891000" />
+      <workItem from="1678343704104" duration="12221000" />
+      <workItem from="1678361080928" duration="15151000" />
+      <workItem from="1678384674254" duration="842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/view/components/DayIntervals/DayIntervals.tsx</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
