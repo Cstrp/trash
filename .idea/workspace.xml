@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6865e8b-341c-4386-9712-1e2ffc5549c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/calendar/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/.stylelintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/TooltipChildPropGetter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/TooltipChildProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/TooltipProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Hooks/UseCalendar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Interfaces/Week.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Portal/Portal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Portal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nocom/src/Utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/Calendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Components/Calendar/Calendar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/CalendarStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Components/Calendar/CalendarStyles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/CalendarUtils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Utils/CalendarUtils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/DateService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/Day.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Interfaces/Day.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/GenerateCalendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Utils/GenerateCalendar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/MomentFormat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Utils/MomentFormat.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/Week.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Components/Calendar/Week.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/index.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2LgPBtcnslvdOkTpMZ8xUpfuJU2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.14.0",
+    "javascript.nodejs.core.library.typings.version": "18.14.0",
+    "last_opened_file_path": "/home/hie/Documents/trash",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "/home/hie/Documents/trash/nextjs/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/home/hie/Documents/trash/calendar/node_modules/react-scripts",
+    "nodejs_interpreter_path": "/home/hie/.local/share/nvm/v18.14.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "prettier.import.notification.dismissed": "true",
+    "prettierjs.PrettierConfiguration.Package": "/home/hie/Documents/trash/calendar/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/home/hie/Documents/trash/calendar/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EzTrash" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nocom/src/Components" />
+      <recent name="$PROJECT_DIR$/nocom/src/Utils" />
+      <recent name="$PROJECT_DIR$/nocom/src/Hooks" />
+      <recent name="$PROJECT_DIR$/nocom/src/Interfaces" />
+      <recent name="$PROJECT_DIR$/src/view/pages/Organizer/services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.renders learn react link">
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/calendar/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/calendar" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/calendar/src/App.test.tsx" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nextjs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debug" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nextjs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nextjs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nocom/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders learn react link" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.debug" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6865e8b-341c-4386-9712-1e2ffc5549c7" name="Changes" comment="" />
+      <created>1676289620813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676289620813</updated>
+      <workItem from="1676289621801" duration="146000" />
+      <workItem from="1676289774065" duration="17687000" />
+      <workItem from="1676317760312" duration="1758000" />
+      <workItem from="1676319561395" duration="8103000" />
+      <workItem from="1676364220411" duration="1027000" />
+      <workItem from="1676538576650" duration="4159000" />
+      <workItem from="1676556350955" duration="58000" />
+      <workItem from="1676579547018" duration="809000" />
+      <workItem from="1676582003172" duration="989000" />
+      <workItem from="1676583003972" duration="2872000" />
+      <workItem from="1676622409212" duration="6464000" />
+      <workItem from="1676635384300" duration="3062000" />
+      <workItem from="1676642163202" duration="5774000" />
+      <workItem from="1676808306035" duration="17000" />
+      <workItem from="1676828206844" duration="5727000" />
+      <workItem from="1676835306517" duration="1564000" />
+      <workItem from="1676840570005" duration="2088000" />
+      <workItem from="1677312480367" duration="246000" />
+      <workItem from="1677312771968" duration="2559000" />
+      <workItem from="1677329084456" duration="2695000" />
+      <workItem from="1677333849723" duration="2920000" />
+      <workItem from="1677406654206" duration="2000" />
+      <workItem from="1677442668511" duration="10190000" />
+      <workItem from="1677489564662" duration="4499000" />
+      <workItem from="1677499175901" duration="75000" />
+      <workItem from="1677501012471" duration="1065000" />
+      <workItem from="1677529210416" duration="48000" />
+      <workItem from="1677698510249" duration="1018000" />
+      <workItem from="1677700683779" duration="171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/view/components/header/Header.tsx</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
