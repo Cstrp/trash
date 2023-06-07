@@ -5,46 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6865e8b-341c-4386-9712-1e2ffc5549c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/calendar/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/.stylelintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calendar/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/Tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/TooltipChildPropGetter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/TooltipChildProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Components/Tooltip/TooltipProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Hooks/UseCalendar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Hooks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Interfaces/Week.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Portal/Portal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Portal/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nocom/src/Utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/Calendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Components/Calendar/Calendar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/CalendarStyles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Components/Calendar/CalendarStyles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/CalendarUtils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Utils/CalendarUtils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/DateService.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/Day.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Interfaces/Day.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/GenerateCalendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Utils/GenerateCalendar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/MomentFormat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Utils/MomentFormat.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/Week.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nocom/src/Components/Calendar/Week.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocom/src/calendar/index.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/CustomBtn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/CustomInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,35 +62,36 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.14.0",
-    "javascript.nodejs.core.library.typings.version": "18.14.0",
-    "last_opened_file_path": "/home/hie/Documents/trash",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "/home/hie/Documents/trash/nextjs/node_modules/stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/hie/Documents/trash/calendar/node_modules/react-scripts",
-    "nodejs_interpreter_path": "/home/hie/.local/share/nvm/v18.14.0/bin/node",
-    "nodejs_package_manager_path": "pnpm",
-    "prettier.import.notification.dismissed": "true",
-    "prettierjs.PrettierConfiguration.Package": "/home/hie/Documents/trash/calendar/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/home/hie/Documents/trash/calendar/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;vueTest&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.16.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.16.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hie/Documents/trash&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/home/hie/Documents/trash/nextjs/node_modules/stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/hie/Documents/trash/calendar/node_modules/react-scripts&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/hie/.local/share/nvm/v18.16.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/hie/Documents/trash/calendar/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/hie/Documents/trash/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/EzTrash" />
@@ -116,10 +104,9 @@
       <recent name="$PROJECT_DIR$/src/view/pages/Organizer/services" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.renders learn react link">
+  <component name="RunManager" selected="npm.dev (1)">
     <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/calendar/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$/calendar" />
       <envs />
@@ -140,8 +127,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/nextjs/package.json" />
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -172,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="Jest.renders learn react link" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.debug" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +204,8 @@
       <workItem from="1677529210416" duration="48000" />
       <workItem from="1677698510249" duration="1018000" />
       <workItem from="1677700683779" duration="171000" />
+      <workItem from="1683836046955" duration="4972000" />
+      <workItem from="1683893930025" duration="16000" />
     </task>
     <servers />
   </component>
