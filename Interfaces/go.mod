@@ -1,3 +1,3 @@
-module interfaces_test
+module Interfaces
 
 go 1.20
