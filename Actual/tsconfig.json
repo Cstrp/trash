@@ -27,18 +27,10 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@": ["./src/*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.js",
-    "custom.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
+  "include": ["src/**/*.ts", "src/**/*.js", "custom.d.ts"],
+  "exclude": ["node_modules"],
   "compileOnSave": false
 }

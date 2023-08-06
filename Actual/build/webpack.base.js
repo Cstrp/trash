@@ -13,11 +13,9 @@ module.exports = {
     config[file] = `./${file}`;
     return config;
   }, {}),
-    resolve: {
+  resolve: {
     alias: {
       '@': path.resolve(__dirname, '../src'),
-      '@data': path.resolve(__dirname, '../src/data'),
-      '@view': path.resolve(__dirname, '../src/view'),
     },
     extensions: ['.ts', '.js'],
   },
@@ -75,7 +73,7 @@ module.exports = {
       {
         test: /\.(s[ac]|c)ss$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
-      },  
+      },
       {
         test: /\.(ts?|js?)$/,
         use: [
@@ -144,9 +142,6 @@ module.exports = {
         },
       },
     },
-    runtimeChunk: {
-      name: 'runtime',
-    },
   },
   cache: {
     type: 'filesystem',
@@ -159,8 +154,4 @@ module.exports = {
   experiments: {
     asyncWebAssembly: true,
   },
-};
-
-const base = () => {
-  return 'переписаные плагины';
 };
